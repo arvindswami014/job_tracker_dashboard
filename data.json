@@ -1,0 +1,299 @@
+{
+  "generated_at": "2026-07-16T11:44:39.702756",
+  "visa_deadline": "2026-12-01T00:00:00",
+  "weekly_goal": 35,
+  "applied_this_week": 0,
+  "status_counts": {
+    "Discovered": 204
+  },
+  "source_summary": [
+    {
+      "name": "themuse",
+      "count": 56,
+      "errors": 0
+    },
+    {
+      "name": "greenhouse",
+      "count": 1010,
+      "errors": 0
+    },
+    {
+      "name": "lever",
+      "count": 0,
+      "errors": 0
+    },
+    {
+      "name": "reed",
+      "count": 204,
+      "errors": 0
+    },
+    {
+      "name": "adzuna",
+      "count": 250,
+      "errors": 0
+    }
+  ],
+  "new_sponsors": [
+    "General HVAC Solutions UK Ltd",
+    "General HVAC Solutions UK Ltd",
+    "General HVAC Solutions UK Ltd",
+    "LINKX AI LTD",
+    "Momentus Technologies Group Limited",
+    "Momentus Technologies Group Limited",
+    "Profile Solutions UK Limited",
+    "Sai Clinic Limited"
+  ],
+  "top_jobs": [
+    {
+      "job_id": "JH-0125",
+      "company": "VIQU Limited",
+      "role": "DevOps Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/details/5781439408?utm_medium=api&utm_source=1d9ce82d",
+      "composite": 97,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true
+    },
+    {
+      "job_id": "JH-0006",
+      "company": "Genomics England",
+      "role": "Platform Engineer",
+      "url": "https://www.genomicsengland.co.uk/careers/open-positions/platform-engineer-cloud-centre-of-excellence-ccoe",
+      "composite": 96,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true
+    },
+    {
+      "job_id": "JH-0118",
+      "company": "FDM Group",
+      "role": "DevOps Engineer - Leatherhead",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5801149760?se=VK6GonSA8RGDMNFo9qkXsw&utm_medium=api&utm_source=1d9ce82d&v=1774AE65718014C90AF5421E665908A38C10CD24",
+      "composite": 96,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true
+    },
+    {
+      "job_id": "JH-0190",
+      "company": "Next Ltd",
+      "role": "DevOps Engineer - WHS",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5799595260?se=Qh_hf-yA8RGDMNFo9qkXsw&utm_medium=api&utm_source=1d9ce82d&v=7153C20CEF1931A702581DFD24ED9A87BAF7E2A8",
+      "composite": 96,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true
+    },
+    {
+      "job_id": "JH-0014",
+      "company": "Stripe",
+      "role": "Backend/API Engineer, Money as a Service",
+      "url": "https://stripe.com/jobs/search?gh_jid=6176758",
+      "composite": 93,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true
+    },
+    {
+      "job_id": "JH-0015",
+      "company": "Stripe",
+      "role": "Backend / API Engineer, Payouts",
+      "url": "https://stripe.com/jobs/search?gh_jid=7369543",
+      "composite": 93,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true
+    },
+    {
+      "job_id": "JH-0017",
+      "company": "Stripe",
+      "role": "Backend Engineer/API, Payments and Risk",
+      "url": "https://stripe.com/jobs/search?gh_jid=4921361",
+      "composite": 93,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true
+    },
+    {
+      "job_id": "JH-0023",
+      "company": "Stripe",
+      "role": "Backend Engineer, Payments and Risk",
+      "url": "https://stripe.com/jobs/search?gh_jid=6163230",
+      "composite": 93,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true
+    },
+    {
+      "job_id": "JH-0024",
+      "company": "Stripe",
+      "role": "Backend Engineer, Payments and Risk",
+      "url": "https://stripe.com/jobs/search?gh_jid=7232592",
+      "composite": 93,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true
+    },
+    {
+      "job_id": "JH-0102",
+      "company": "Spectrum IT",
+      "role": "Senior AWS Engineer | SRE",
+      "url": "https://www.adzuna.co.uk/jobs/details/5790226490?utm_medium=api&utm_source=1d9ce82d",
+      "composite": 93,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true
+    },
+    {
+      "job_id": "JH-0115",
+      "company": "MCS Group",
+      "role": "Senior DevOps Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5800556155?se=VK6GonSA8RGDMNFo9qkXsw&utm_medium=api&utm_source=1d9ce82d&v=F56863315EB9DD4A2A251A5C65B8453754A30537",
+      "composite": 93,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true
+    },
+    {
+      "job_id": "JH-0156",
+      "company": "Spectrum IT",
+      "role": "Site Reliability Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/details/5797175233?utm_medium=api&utm_source=1d9ce82d",
+      "composite": 93,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true
+    },
+    {
+      "job_id": "JH-0189",
+      "company": "Leidos",
+      "role": "AWS DevOps Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5801492070?se=Qh_hf-yA8RGDMNFo9qkXsw&utm_medium=api&utm_source=1d9ce82d&v=EA2D5B1F585765E73CD520EB20FD2E11FB90A212",
+      "composite": 93,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true
+    },
+    {
+      "job_id": "JH-0099",
+      "company": "Admiral Group Plc",
+      "role": "Senior SRE Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/details/5789988858?utm_medium=api&utm_source=1d9ce82d",
+      "composite": 92,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true
+    },
+    {
+      "job_id": "JH-0108",
+      "company": "The Investigo Group",
+      "role": "Senior Site Reliability Engineer (SRE)",
+      "url": "https://www.adzuna.co.uk/jobs/details/5749288725?utm_medium=api&utm_source=1d9ce82d",
+      "composite": 92,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true
+    },
+    {
+      "job_id": "JH-0109",
+      "company": "The Investigo Group",
+      "role": "Senior Site Reliability Engineer (SRE)",
+      "url": "https://www.adzuna.co.uk/jobs/details/5749288722?utm_medium=api&utm_source=1d9ce82d",
+      "composite": 92,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true
+    },
+    {
+      "job_id": "JH-0110",
+      "company": "The Investigo Group",
+      "role": "Senior Site Reliability Engineer (SRE)",
+      "url": "https://www.adzuna.co.uk/jobs/details/5749288724?utm_medium=api&utm_source=1d9ce82d",
+      "composite": 92,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true
+    },
+    {
+      "job_id": "JH-0111",
+      "company": "The Investigo Group",
+      "role": "Senior Site Reliability Engineer (SRE)",
+      "url": "https://www.adzuna.co.uk/jobs/details/5749288736?utm_medium=api&utm_source=1d9ce82d",
+      "composite": 92,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true
+    },
+    {
+      "job_id": "JH-0112",
+      "company": "The Investigo Group",
+      "role": "Senior Site Reliability Engineer (SRE)",
+      "url": "https://www.adzuna.co.uk/jobs/details/5749288727?utm_medium=api&utm_source=1d9ce82d",
+      "composite": 92,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true
+    },
+    {
+      "job_id": "JH-0113",
+      "company": "The Investigo Group",
+      "role": "Senior Site Reliability Engineer (SRE)",
+      "url": "https://www.adzuna.co.uk/jobs/details/5749288744?utm_medium=api&utm_source=1d9ce82d",
+      "composite": 92,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true
+    },
+    {
+      "job_id": "JH-0132",
+      "company": "Sanderson",
+      "role": "DevOps Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5789851249?se=VK6GonSA8RGDMNFo9qkXsw&utm_medium=api&utm_source=1d9ce82d&v=2F74B403512E0ED0AED3773D9E220AA09093AAF7",
+      "composite": 92,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true
+    },
+    {
+      "job_id": "JH-0154",
+      "company": "Orion Health",
+      "role": "Site Reliability Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/details/5744635786?utm_medium=api&utm_source=1d9ce82d",
+      "composite": 92,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true
+    },
+    {
+      "job_id": "JH-0161",
+      "company": "Trimble",
+      "role": "Site Reliability Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/details/5613422533?utm_medium=api&utm_source=1d9ce82d",
+      "composite": 92,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true
+    },
+    {
+      "job_id": "JH-0162",
+      "company": "CGI",
+      "role": "Site Reliability Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/details/5789181014?utm_medium=api&utm_source=1d9ce82d",
+      "composite": 92,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true
+    },
+    {
+      "job_id": "JH-0090",
+      "company": "SRG",
+      "role": "Head of Infrastructure Delivery",
+      "url": "https://www.reed.co.uk/jobs/head-of-infrastructure-delivery/57105206",
+      "composite": 91,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true
+    }
+  ],
+  "followups_due": []
+}
