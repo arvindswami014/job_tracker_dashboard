@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Nindo — Job Hunt Command Center</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  :root {
+    --ink: #f1efe9;
+    --surface: #ffffff;
+    --surface-2: #f6f3ec;
+    --border: #ded7c6;
+    --text: #241f1a;
+    --text-dim: #6b6154;
+    --accent: #d9631e;
+    --accent-soft: rgba(217, 99, 30, 0.12);
+    --good: #3f9c6d;
+    --good-soft: rgba(63, 156, 109, 0.12);
+    --warn: #c17324;
+    --warn-soft: rgba(193, 115, 36, 0.12);
+    --low: #b34a45;
+    --low-soft: rgba(179, 74, 69, 0.12);
+    --shadow: 0 1px 2px rgba(36, 31, 26, 0.06), 0 8px 24px rgba(36, 31, 26, 0.06);
+    /* Character accents -- used only as small identifying marks (left border, eyebrow), never as full backgrounds */
+    --c-naruto: #e8791a;
+    --c-guy: #3e7d3a;
+    --c-shikamaru: #8a7550;
+    --c-neji: #8b7fae;
+    --c-jiraiya: #a5382f;
+    --c-orochimaru: #6b4a8c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #14110d;
+      --surface: #1e1914;
+      --surface-2: #27201a;
+      --border: #392f24;
+      --text: #f0e9df;
+      --text-dim: #a6987f;
+      --accent: #e8862f;
+      --accent-soft: rgba(232, 134, 47, 0.16);
+      --good: #5fb88a;
+      --good-soft: rgba(95, 184, 138, 0.14);
+      --warn: #d98c4a;
+      --warn-soft: rgba(217, 140, 74, 0.14);
+      --low: #c1615c;
+      --low-soft: rgba(193, 97, 92, 0.14);
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 12px 32px rgba(0, 0, 0, 0.35);
+      --c-naruto: #f3922e;
+      --c-guy: #5fae59;
+      --c-shikamaru: #ab9469;
+      --c-neji: #ada1cf;
+      --c-jiraiya: #d16a5f;
+      --c-orochimaru: #9b7bc2;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ink: #14110d;
+    --surface: #1e1914;
+    --surface-2: #27201a;
+    --border: #392f24;
+    --text: #f0e9df;
+    --text-dim: #a6987f;
+    --accent: #e8862f;
+    --accent-soft: rgba(232, 134, 47, 0.16);
+    --good: #5fb88a;
+    --good-soft: rgba(95, 184, 138, 0.14);
+    --warn: #d98c4a;
+    --warn-soft: rgba(217, 140, 74, 0.14);
+    --low: #c1615c;
+    --low-soft: rgba(193, 97, 92, 0.14);
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 12px 32px rgba(0, 0, 0, 0.35);
+    --c-naruto: #f3922e;
+    --c-guy: #5fae59;
+    --c-shikamaru: #ab9469;
+    --c-neji: #ada1cf;
+    --c-jiraiya: #d16a5f;
+    --c-orochimaru: #9b7bc2;
+  }
+  :root[data-theme="light"] {
+    --ink: #f1efe9;
+    --surface: #ffffff;
+    --surface-2: #f6f3ec;
+    --border: #ded7c6;
+    --text: #241f1a;
+    --text-dim: #6b6154;
+    --accent: #d9631e;
+    --accent-soft: rgba(217, 99, 30, 0.12);
+    --good: #3f9c6d;
+    --good-soft: rgba(63, 156, 109, 0.12);
+    --warn: #c17324;
+    --warn-soft: rgba(193, 115, 36, 0.12);
+    --low: #b34a45;
+    --low-soft: rgba(179, 74, 69, 0.12);
+    --shadow: 0 1px 2px rgba(36, 31, 26, 0.06), 0 8px 24px rgba(36, 31, 26, 0.06);
+    --c-naruto: #d9631e;
+    --c-guy: #3e7d3a;
+    --c-shikamaru: #8a7550;
+    --c-neji: #8b7fae;
+    --c-jiraiya: #a5382f;
+    --c-orochimaru: #6b4a8c;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--ink);
+    color: var(--text);
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3 {
+    font-family: ui-serif, Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+    text-wrap: balance;
+    margin: 0;
+    font-weight: 600;
+  }
+  .mono {
+    font-family: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace;
+    font-variant-numeric: tabular-nums;
+  }
+  a { color: var(--accent); }
+
+  .shell { max-width: 780px; margin: 0 auto; padding: 16px 16px 64px; }
+
+  .topbar {
+    display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
+    padding: 4px 2px 16px;
+  }
+  .topbar h1 { font-size: 21px; }
+  .topbar .updated { font-size: 12px; color: var(--text-dim); white-space: nowrap; }
+
+  .tabs {
+    display: flex; gap: 4px; overflow-x: auto; padding-bottom: 2px; margin-bottom: 18px;
+    border-bottom: 1px solid var(--border);
+    scrollbar-width: none;
+  }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tab-btn {
+    appearance: none; border: none; background: none; color: var(--text-dim);
+    font: inherit; font-size: 13.5px; font-weight: 600; letter-spacing: 0.01em;
+    padding: 9px 14px; border-radius: 8px 8px 0 0; cursor: pointer; white-space: nowrap;
+    border-bottom: 2px solid transparent; margin-bottom: -1px;
+    transition: color 0.15s ease;
+  }
+  .tab-btn:hover { color: var(--text); }
+  .tab-btn[aria-selected="true"] { color: var(--text); border-bottom-color: var(--accent); }
+  .tab-btn .count {
+    display: inline-block; margin-left: 6px; padding: 1px 6px; border-radius: 99px;
+    background: var(--surface-2); font-size: 11px; color: var(--text-dim);
+  }
+
+  .panel { display: none; flex-direction: column; gap: 16px; }
+  .panel.active { display: flex; }
+
+  .card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+    padding: 18px; box-shadow: var(--shadow);
+  }
+  .card h2 { font-size: 15px; margin-bottom: 12px; }
+  .card h2 .eyebrow {
+    display: flex; align-items: center; gap: 6px;
+    font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--text-dim); margin-bottom: 5px;
+  }
+  .char-icon {
+    width: 20px; height: 20px; flex-shrink: 0; color: var(--char-color, var(--text-dim));
+    filter: drop-shadow(0 0 5px var(--char-color, transparent));
+  }
+  .card.char { animation: cardIn 0.5s ease both; }
+  .card.char:nth-of-type(1) { animation-delay: 0s; }
+  .card.char:nth-of-type(2) { animation-delay: 0.05s; }
+  .card.char:nth-of-type(3) { animation-delay: 0.1s; }
+  @keyframes cardIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .card.char { animation: none; }
+  }
+
+  /* Character cards -- a themed left-border stripe + eyebrow color, and an original one-line
+     motto (not reproduced dialogue) under the heading. */
+  .card.char { border-left: 3px solid var(--char-color, var(--accent)); }
+  .card.char h2 .eyebrow { color: var(--char-color, var(--text-dim)); }
+  .card.char-naruto { --char-color: var(--c-naruto); }
+  .card.char-guy { --char-color: var(--c-guy); }
+  .card.char-shikamaru { --char-color: var(--c-shikamaru); }
+  .card.char-neji { --char-color: var(--c-neji); }
+  .card.char-jiraiya { --char-color: var(--c-jiraiya); }
+  .card.char-orochimaru { --char-color: var(--c-orochimaru); }
+  .motto {
+    font-family: ui-serif, Georgia, "Iowan Old Style", serif; font-style: italic;
+    font-size: 13px; color: var(--text-dim); border-left: 2px solid var(--char-color, var(--border));
+    padding-left: 10px; margin: 10px 0 14px;
+  }
+  .motto span.who {
+    display: block; font-style: normal; font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-size: 10.5px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--char-color, var(--text-dim)); margin-top: 4px;
+  }
+
+  /* Countdown */
+  .countdown-card { background: linear-gradient(160deg, var(--surface) 60%, var(--accent-soft)); }
+  .countdown-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 4px; }
+  .countdown-unit { text-align: center; }
+  .countdown-unit .num {
+    font-size: 30px; font-weight: 600; color: var(--accent); line-height: 1;
+    display: block;
+  }
+  .countdown-unit .label {
+    font-size: 10.5px; color: var(--text-dim); text-transform: uppercase;
+    letter-spacing: 0.08em; margin-top: 5px; display: block;
+  }
+  .countdown-sub { font-size: 12.5px; color: var(--text-dim); margin-top: 12px; }
+
+  /* Goal */
+  .goal-row { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 8px; }
+  .goal-row .value { font-size: 20px; }
+  .goal-row .target { color: var(--text-dim); font-size: 13px; }
+  .progress-track {
+    height: 8px; border-radius: 99px; background: var(--surface-2); overflow: hidden;
+  }
+  .progress-fill { height: 100%; background: var(--accent); border-radius: 99px; transition: width 0.4s ease; }
+
+  .stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; }
+  .stat {
+    background: var(--surface-2); border-radius: 10px; padding: 12px 14px;
+  }
+  .stat .n { font-size: 22px; font-weight: 600; }
+  .stat .l { font-size: 11.5px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.06em; }
+
+  /* Sticky note */
+  .note-card { background: var(--surface); }
+  .note-card textarea {
+    width: 100%; min-height: 110px; resize: vertical; border: 1px solid var(--border);
+    border-radius: 10px; background: var(--surface-2); color: var(--text); padding: 12px;
+    font: inherit; font-size: 14px; line-height: 1.5;
+  }
+  .note-card textarea:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .note-saved { font-size: 11.5px; color: var(--text-dim); margin-top: 6px; height: 14px; }
+
+  /* Todo */
+  .todo-input-row { display: flex; gap: 8px; margin-bottom: 12px; }
+  .todo-input-row input[type="text"] {
+    flex: 1; border: 1px solid var(--border); border-radius: 8px; background: var(--surface-2);
+    color: var(--text); padding: 9px 12px; font: inherit; font-size: 14px;
+  }
+  .todo-input-row input[type="text"]:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .todo-input-row button {
+    appearance: none; border: none; background: var(--accent); color: #12181d; font: inherit;
+    font-weight: 600; font-size: 13.5px; padding: 0 16px; border-radius: 8px; cursor: pointer;
+  }
+  .todo-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+  .todo-item {
+    display: flex; align-items: center; gap: 10px; padding: 9px 4px; border-radius: 8px;
+  }
+  .todo-item input[type="checkbox"] {
+    width: 18px; height: 18px; accent-color: var(--accent); flex-shrink: 0; cursor: pointer;
+  }
+  .todo-item span { flex: 1; font-size: 14px; }
+  .todo-item.done span { color: var(--text-dim); text-decoration: line-through; }
+  .todo-item button.remove {
+    appearance: none; border: none; background: none; color: var(--text-dim); cursor: pointer;
+    font-size: 16px; line-height: 1; padding: 4px 6px; border-radius: 6px;
+  }
+  .todo-item button.remove:hover { color: var(--low); background: var(--low-soft); }
+  .todo-empty { color: var(--text-dim); font-size: 13px; padding: 6px 4px; }
+
+  /* Job list */
+  .job-list { display: flex; flex-direction: column; gap: 10px; }
+  .job-card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+    padding: 14px 16px; display: flex; flex-direction: column; gap: 8px;
+  }
+  .job-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
+  .job-titles { min-width: 0; display: flex; gap: 10px; align-items: flex-start; }
+  .job-avatar {
+    width: 34px; height: 34px; border-radius: 9px; flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+    background: var(--accent-soft); color: var(--accent);
+    font-family: ui-serif, Georgia, serif; font-weight: 700; font-size: 15px;
+  }
+  .job-company { font-weight: 700; font-size: 14.5px; }
+  .job-role { color: var(--text-dim); font-size: 13.5px; margin-top: 1px; }
+  .job-rank { font-size: 12px; color: var(--text-dim); flex-shrink: 0; padding-top: 2px; }
+  .badge.draft { background: var(--surface-2); color: var(--text-dim); }
+  .badge-row { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+  .badge {
+    font-size: 11.5px; font-weight: 700; padding: 3px 9px; border-radius: 99px;
+    display: inline-flex; align-items: center; gap: 4px;
+  }
+  .badge.good { background: var(--good-soft); color: var(--good); }
+  .badge.warn { background: var(--warn-soft); color: var(--warn); }
+  .badge.low { background: var(--low-soft); color: var(--low); }
+  .gap-tag {
+    font-size: 11px; color: var(--text-dim); background: var(--surface-2);
+    padding: 2px 8px; border-radius: 99px;
+  }
+  .job-link {
+    font-size: 13px; font-weight: 600; text-decoration: none; align-self: flex-start;
+    margin-top: 2px;
+  }
+  .job-link:hover { text-decoration: underline; }
+
+  .empty-state {
+    text-align: center; padding: 32px 16px; color: var(--text-dim);
+  }
+  .empty-state .big { font-size: 28px; margin-bottom: 6px; }
+
+  .source-row {
+    display: flex; justify-content: space-between; font-size: 13px; padding: 5px 0;
+    border-bottom: 1px dashed var(--border);
+  }
+  .source-row:last-child { border-bottom: none; }
+  .source-row .n { color: var(--text-dim); }
+</style>
+</head>
+<body>
+
+<div class="shell">
+  <div class="topbar">
+    <h1>Nindo — Job Hunt Command Center</h1>
+    <span class="updated mono" id="updatedAt">—</span>
+  </div>
+
+  <div class="tabs" role="tablist">
+    <button class="tab-btn" role="tab" data-tab="overview" aria-selected="true">Overview</button>
+    <button class="tab-btn" role="tab" data-tab="shortlist">Shortlist<span class="count" id="shortlistCount"></span></button>
+    <button class="tab-btn" role="tab" data-tab="sponsors">New Sponsors<span class="count" id="sponsorsCount"></span></button>
+    <button class="tab-btn" role="tab" data-tab="followups">Follow-ups<span class="count" id="followupsCount"></span></button>
+  </div>
+
+  <!-- OVERVIEW -->
+  <div class="panel active" data-panel="overview">
+    <div class="card char char-naruto countdown-card">
+      <h2><span class="eyebrow"><svg class="char-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4c4 0 7 3 7 7 0 3.5-2.5 6-6 6-2.5 0-4.5-2-4.5-4.5 0-2 1.5-3.5 3.5-3.5 1.5 0 2.5 1 2.5 2.5"/></svg>Naruto — the Nindo</span>Time remaining to secure sponsorship</h2>
+      <div class="motto">A deadline is just another wall — and I've never met one I couldn't outlast.<span class="who">Naruto Uzumaki, on walls</span></div>
+      <div class="countdown-grid">
+        <div class="countdown-unit"><span class="num mono" id="cdDays">–</span><span class="label">Days</span></div>
+        <div class="countdown-unit"><span class="num mono" id="cdHours">–</span><span class="label">Hours</span></div>
+        <div class="countdown-unit"><span class="num mono" id="cdMins">–</span><span class="label">Mins</span></div>
+        <div class="countdown-unit"><span class="num mono" id="cdSecs">–</span><span class="label">Secs</span></div>
+      </div>
+      <div class="countdown-sub">Post-study work visa buffer runs out <strong id="deadlineLabel">—</strong>. An accepted offer needs roughly 6 weeks of CoS + visa processing before that.</div>
+    </div>
+
+    <div class="card char char-guy">
+      <h2><span class="eyebrow"><svg class="char-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.5c-3.8 4.8-5.7 7.9-5.7 11.2 0 3.8 2.9 6.8 5.7 6.8s5.7-3 5.7-6.8c0-1.6-.6-3.1-1.6-4.6.1 1.7-.5 2.9-1.6 3.5.6-2-.2-6.1-2.5-10.1z"/></svg>Might Guy — the Training Log</span>This week's applications</h2>
+      <div class="motto">Talent opens doors. Discipline walks through them, every single day.<span class="who">Might Guy, on effort</span></div>
+      <div class="goal-row">
+        <span class="value mono"><span id="appliedThisWeek">0</span> <span class="target">/ <span id="weeklyGoal">35</span> target</span></span>
+        <span class="target mono" id="goalPct">0%</span>
+      </div>
+      <div class="progress-track"><div class="progress-fill" id="goalFill" style="width:0%"></div></div>
+    </div>
+
+    <div class="card char char-shikamaru">
+      <h2><span class="eyebrow"><svg class="char-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M6.7 17.5c-2.3 0-4.2-1.9-4.2-4.2 0-2.1 1.5-3.8 3.5-4.1.9-2.6 3.4-4.5 6.3-4.5 3.3 0 6.1 2.4 6.6 5.6 2 .3 3.6 2 3.6 4.1 0 2.3-1.9 4.2-4.2 4.2H6.7z"/></svg>Shikamaru — the War Room</span>Where things stand</h2>
+      <div class="motto">Troublesome or not, you win by reading the whole board before you move.<span class="who">Shikamaru Nara, on strategy</span></div>
+      <div class="stat-grid" id="statGrid"></div>
+    </div>
+
+    <div class="card note-card">
+      <h2><span class="eyebrow">Today</span>Sticky note</h2>
+      <textarea id="stickyNote" placeholder="Jot down anything for today — a company to double-check, a follow-up to send, an interview time..."></textarea>
+      <div class="note-saved" id="noteSaved"></div>
+    </div>
+
+    <div class="card">
+      <h2><span class="eyebrow">Today</span>To-do list</h2>
+      <div class="todo-input-row">
+        <input type="text" id="todoInput" placeholder="Add a task and press Enter…" />
+        <button id="todoAdd">Add</button>
+      </div>
+      <ul class="todo-list" id="todoList"></ul>
+    </div>
+  </div>
+
+  <!-- SHORTLIST -->
+  <div class="panel" data-panel="shortlist">
+    <div class="card char char-neji">
+      <h2><span class="eyebrow"><svg class="char-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12c3-6 7-8 10-8s7 2 10 8c-3 6-7 8-10 8s-7-2-10-8z"/><circle cx="12" cy="12" r="2.8" fill="currentColor" stroke="none"/></svg>Neji — Byakugan Clarity</span>Top jobs to apply to, ranked by resume match</h2>
+      <div class="motto">Fate deals the hand. What you do with it is entirely your own choice.<span class="who">Neji Hyuga, on destiny</span></div>
+      <div class="job-list" id="jobList"></div>
+    </div>
+  </div>
+
+  <!-- SPONSORS -->
+  <div class="panel" data-panel="sponsors">
+    <div class="card char char-orochimaru">
+      <h2><span class="eyebrow"><svg class="char-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18c3 0 3-4 6-4s3 4 6 4 3-4 6-4"/><circle cx="4.5" cy="7" r="2.2" fill="currentColor" stroke="none"/><path d="M4.5 9.2c0 3 2 4.5 2 6.8" /></svg>Orochimaru — New Frontiers</span>Newly added sponsor companies</h2>
+      <div class="motto">Stagnation is the only real defeat — always be reaching for what comes next.<span class="who">Orochimaru, on growth</span></div>
+      <div id="sponsorsList"></div>
+    </div>
+  </div>
+
+  <!-- FOLLOWUPS -->
+  <div class="panel" data-panel="followups">
+    <div class="card char char-jiraiya">
+      <h2><span class="eyebrow"><svg class="char-icon" viewBox="0 0 24 24" fill="currentColor"><ellipse cx="12" cy="14.5" rx="8" ry="6"/><circle cx="7.5" cy="7" r="2.3"/><circle cx="16.5" cy="7" r="2.3"/></svg>Jiraiya — the Sensei's Reminder</span>Follow-ups due (7/14-day rule)</h2>
+      <div class="motto">Even legends need someone checking in. Never let a good connection go cold.<span class="who">Jiraiya, on staying in touch</span></div>
+      <div id="followupsList"></div>
+    </div>
+    <div class="card">
+      <h2><span class="eyebrow">Last run</span>Source coverage</h2>
+      <div id="sourceList"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // ---------- Tabs (wired up immediately, independent of data load) ----------
+  document.querySelectorAll(".tab-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".tab-btn").forEach((b) => b.setAttribute("aria-selected", "false"));
+      document.querySelectorAll(".panel").forEach((p) => p.classList.remove("active"));
+      btn.setAttribute("aria-selected", "true");
+      document.querySelector(`.panel[data-panel="${btn.dataset.tab}"]`).classList.add("active");
+    });
+  });
+
+  // ---------- Sticky note (localStorage; independent of data.json, initializes immediately) ----------
+  const noteEl = document.getElementById("stickyNote");
+  const noteSaved = document.getElementById("noteSaved");
+  noteEl.value = localStorage.getItem("jha_sticky_note") || "";
+  let noteTimer;
+  noteEl.addEventListener("input", () => {
+    clearTimeout(noteTimer);
+    noteTimer = setTimeout(() => {
+      localStorage.setItem("jha_sticky_note", noteEl.value);
+      noteSaved.textContent = "Saved";
+      setTimeout(() => { noteSaved.textContent = ""; }, 1400);
+    }, 400);
+  });
+
+  // ---------- To-do list (localStorage) ----------
+  const todoListEl = document.getElementById("todoList");
+  const todoInput = document.getElementById("todoInput");
+  let todos = [];
+  try { todos = JSON.parse(localStorage.getItem("jha_todos") || "[]"); } catch (e) { todos = []; }
+
+  function saveTodos() { localStorage.setItem("jha_todos", JSON.stringify(todos)); }
+  function renderTodos() {
+    if (!todos.length) {
+      todoListEl.innerHTML = '<li class="todo-empty">Nothing on the list yet.</li>';
+      return;
+    }
+    todoListEl.innerHTML = todos.map((t, i) => `
+      <li class="todo-item ${t.done ? "done" : ""}" data-i="${i}">
+        <input type="checkbox" ${t.done ? "checked" : ""} aria-label="Mark done" />
+        <span></span>
+        <button class="remove" aria-label="Remove">×</button>
+      </li>
+    `).join("");
+    todoListEl.querySelectorAll(".todo-item").forEach((li) => {
+      const i = Number(li.dataset.i);
+      li.querySelector("span").textContent = todos[i].text;
+      li.querySelector("input").addEventListener("change", () => {
+        todos[i].done = !todos[i].done; saveTodos(); renderTodos();
+      });
+      li.querySelector(".remove").addEventListener("click", () => {
+        todos.splice(i, 1); saveTodos(); renderTodos();
+      });
+    });
+  }
+  function addTodo() {
+    const text = todoInput.value.trim();
+    if (!text) return;
+    todos.push({ text, done: false });
+    todoInput.value = "";
+    saveTodos(); renderTodos();
+  }
+  document.getElementById("todoAdd").addEventListener("click", addTodo);
+  todoInput.addEventListener("keydown", (e) => { if (e.key === "Enter") addTodo(); });
+  renderTodos();
+
+  // ---------- Render everything that depends on data.json ----------
+  function pad(n) { return String(n).padStart(2, "0"); }
+  function scoreBand(pct) {
+    if (pct >= 85) return "good";
+    if (pct >= 60) return "warn";
+    return "low";
+  }
+
+  let deadline = null;
+  function tickCountdown() {
+    if (deadline === null) return;
+    const diff = Math.max(0, deadline - Date.now());
+    document.getElementById("cdDays").textContent = Math.floor(diff / 86400000);
+    document.getElementById("cdHours").textContent = pad(Math.floor((diff % 86400000) / 3600000));
+    document.getElementById("cdMins").textContent = pad(Math.floor((diff % 3600000) / 60000));
+    document.getElementById("cdSecs").textContent = pad(Math.floor((diff % 60000) / 1000));
+  }
+  setInterval(tickCountdown, 1000);
+
+  function render(DATA) {
+    // Header
+    const generated = new Date(DATA.generated_at);
+    document.getElementById("updatedAt").textContent = "Updated " + generated.toLocaleString(undefined, {
+      weekday: "short", hour: "2-digit", minute: "2-digit", day: "numeric", month: "short",
+    });
+
+    // Countdown
+    deadline = new Date(DATA.visa_deadline).getTime();
+    document.getElementById("deadlineLabel").textContent = new Date(DATA.visa_deadline)
+      .toLocaleDateString(undefined, { day: "numeric", month: "long", year: "numeric" });
+    tickCountdown();
+
+    // Goal
+    const goal = DATA.weekly_goal || 35;
+    const applied = DATA.applied_this_week || 0;
+    document.getElementById("appliedThisWeek").textContent = applied;
+    document.getElementById("weeklyGoal").textContent = goal;
+    const goalPct = Math.min(100, Math.round((applied / goal) * 100));
+    document.getElementById("goalPct").textContent = goalPct + "%";
+    document.getElementById("goalFill").style.width = goalPct + "%";
+
+    // Pipeline stats
+    const statusCounts = DATA.status_counts || {};
+    const total = Object.values(statusCounts).reduce((a, b) => a + b, 0);
+    const order = ["Discovered", "Applied", "Interview", "Rejected", "Offer"];
+    const seenKeys = new Set();
+    const rows = [["Total tracked", total]];
+    order.forEach((k) => { if (statusCounts[k] !== undefined) { rows.push([k, statusCounts[k]]); seenKeys.add(k); } });
+    Object.keys(statusCounts).forEach((k) => { if (!seenKeys.has(k)) rows.push([k, statusCounts[k]]); });
+    document.getElementById("statGrid").innerHTML = rows
+      .map(([label, n]) => `<div class="stat"><div class="n mono">${n}</div><div class="l">${label}</div></div>`)
+      .join("");
+
+    // Shortlist
+    document.getElementById("shortlistCount").textContent = DATA.top_jobs.length;
+    const jobList = document.getElementById("jobList");
+    if (!DATA.top_jobs.length) {
+      jobList.innerHTML = '<div class="empty-state"><div class="big">—</div>No ranked jobs yet. Check back after the next scan.</div>';
+    } else {
+      jobList.innerHTML = DATA.top_jobs.map((j, i) => {
+        const band = scoreBand(j.coverage_pct);
+        const gaps = (j.missing_terms || []).slice(0, 4).map((t) => `<span class="gap-tag">${t}</span>`).join("");
+        const initial = (j.company || "?").trim().charAt(0).toUpperCase();
+        const draftBadge = j.has_draft
+          ? '<span class="badge draft">📄 Draft ready locally</span>'
+          : "";
+        return `
+          <div class="job-card">
+            <div class="job-top">
+              <div class="job-titles">
+                <div class="job-avatar">${initial}</div>
+                <div>
+                  <div class="job-company">${j.company}</div>
+                  <div class="job-role">${j.role}</div>
+                </div>
+              </div>
+              <div class="job-rank mono">#${i + 1}</div>
+            </div>
+            <div class="badge-row">
+              <span class="badge ${band}">${j.coverage_pct}% CV match</span>
+              <span class="badge good">Score ${j.composite}</span>
+              ${draftBadge}
+              ${gaps}
+            </div>
+            <a class="job-link" href="${j.url}" target="_blank" rel="noopener">Open posting →</a>
+          </div>
+        `;
+      }).join("");
+    }
+
+    // Sponsors
+    document.getElementById("sponsorsCount").textContent = DATA.new_sponsors.length;
+    const sponsorsList = document.getElementById("sponsorsList");
+    if (!DATA.new_sponsors.length) {
+      sponsorsList.innerHTML = '<div class="empty-state"><div class="big">—</div>No new sponsor companies since the last run.</div>';
+    } else {
+      sponsorsList.innerHTML = '<div class="badge-row">' + DATA.new_sponsors.map((s) => `<span class="gap-tag">${s}</span>`).join("") + "</div>";
+    }
+
+    // Follow-ups
+    document.getElementById("followupsCount").textContent = DATA.followups_due.length;
+    const followupsList = document.getElementById("followupsList");
+    if (!DATA.followups_due.length) {
+      followupsList.innerHTML = '<div class="empty-state"><div class="big">—</div>Nothing due today.</div>';
+    } else {
+      followupsList.innerHTML = DATA.followups_due.map((f) => `
+        <div class="job-card">
+          <div class="job-top">
+            <div class="job-titles">
+              <div class="job-company">${f.company}</div>
+              <div class="job-role">${f.role_title}</div>
+            </div>
+          </div>
+          <div class="badge-row"><span class="badge warn">${f.days_since} days since applied</span></div>
+        </div>
+      `).join("");
+    }
+
+    // Sources
+    document.getElementById("sourceList").innerHTML = DATA.source_summary.map((s) => `
+      <div class="source-row"><span>${s.name}</span><span class="n mono">${s.count}${s.errors ? ` (${s.errors} err)` : ""}</span></div>
+    `).join("");
+  }
+
+  // ---------- Load data.json (same directory, relative fetch) ----------
+  fetch("./data.json", { cache: "no-store" })
+    .then((r) => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+    .then(render)
+    .catch((err) => {
+      document.getElementById("updatedAt").textContent = "Couldn't load data.json";
+      document.getElementById("jobList").innerHTML =
+        '<div class="empty-state"><div class="big">—</div>Couldn\'t load dashboard data (' + err.message + '). Try refreshing.</div>';
+      console.error(err);
+    });
+</script>
+</body>
+</html>
