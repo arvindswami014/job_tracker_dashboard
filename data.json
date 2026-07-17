@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-17T05:00:03.102457",
+  "generated_at": "2026-07-17T10:01:08.155781",
   "visa_deadline": "2026-12-01T00:00:00",
   "weekly_goal": 35,
   "applied_this_week": 0,
   "status_counts": {
-    "Discovered": 240
+    "Discovered": 246
   },
   "source_summary": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "name": "greenhouse",
-      "count": 1012,
+      "count": 1011,
       "errors": 0
     },
     {
@@ -24,17 +24,334 @@
     },
     {
       "name": "reed",
-      "count": 203,
+      "count": 352,
       "errors": 0
     },
     {
       "name": "adzuna",
-      "count": 250,
+      "count": 400,
       "errors": 0
     }
   ],
   "new_sponsors": [],
   "top_jobs": [
+    {
+      "job_id": "JH-0016",
+      "company": "Stripe",
+      "role": "Backend Engineer, AI Security",
+      "url": "https://stripe.com/jobs/search?gh_jid=7826765",
+      "composite": 76,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "remote",
+      "visa_confidence": "inferred",
+      "agency_posted": false
+    },
+    {
+      "job_id": "JH-0042",
+      "company": "Stripe",
+      "role": "Software Engineer, Security Analytics Infrastructure",
+      "url": "https://stripe.com/jobs/search?gh_jid=7826761",
+      "composite": 89,
+      "coverage_pct": 80,
+      "missing_terms": [
+        "go"
+      ],
+      "has_draft": true,
+      "category": "remote",
+      "visa_confidence": "inferred",
+      "agency_posted": false
+    },
+    {
+      "job_id": "JH-0069",
+      "company": "Datadog",
+      "role": "Senior Developer Advocate - Data Observability",
+      "url": "https://careers.datadoghq.com/detail/7555520/?gh_jid=7555520",
+      "composite": 94,
+      "coverage_pct": 78,
+      "missing_terms": [
+        "go",
+        "networking"
+      ],
+      "has_draft": true,
+      "category": "remote",
+      "visa_confidence": "inferred",
+      "agency_posted": false
+    },
+    {
+      "job_id": "JH-0059",
+      "company": "Datadog",
+      "role": "Engineering Manager II - APM DCS Platform Delivery",
+      "url": "https://careers.datadoghq.com/detail/8046089/?gh_jid=8046089",
+      "composite": 89,
+      "coverage_pct": 75,
+      "missing_terms": [
+        "networking"
+      ],
+      "has_draft": true,
+      "category": "remote",
+      "visa_confidence": "inferred",
+      "agency_posted": false
+    },
+    {
+      "job_id": "JH-0061",
+      "company": "Datadog",
+      "role": "Engineering Manager II - APM DCS Platform Delivery",
+      "url": "https://careers.datadoghq.com/detail/8045998/?gh_jid=8045998",
+      "composite": 89,
+      "coverage_pct": 75,
+      "missing_terms": [
+        "networking"
+      ],
+      "has_draft": true,
+      "category": "remote",
+      "visa_confidence": "inferred",
+      "agency_posted": false
+    },
+    {
+      "job_id": "JH-0011",
+      "company": "Kyndryl",
+      "role": "Backend Developer- Python",
+      "url": "https://www.themuse.com/jobs/kyndryl/backend-developer-python-40021d",
+      "composite": 96,
+      "coverage_pct": 73,
+      "missing_terms": [
+        "gcp",
+        "k8s",
+        "microservices"
+      ],
+      "has_draft": true,
+      "category": "remote",
+      "visa_confidence": "inferred",
+      "agency_posted": false
+    },
+    {
+      "job_id": "JH-0088",
+      "company": "Monzo",
+      "role": "Staff Backend Engineer ",
+      "url": "https://job-boards.greenhouse.io/monzo/jobs/6636147",
+      "composite": 92,
+      "coverage_pct": 71,
+      "missing_terms": [
+        "distributed systems",
+        "go"
+      ],
+      "has_draft": true,
+      "category": "remote",
+      "visa_confidence": "explicit",
+      "agency_posted": false
+    },
+    {
+      "job_id": "JH-0086",
+      "company": "Monzo",
+      "role": "Senior Staff Backend Engineer",
+      "url": "https://job-boards.greenhouse.io/monzo/jobs/6036797",
+      "composite": 92,
+      "coverage_pct": 67,
+      "missing_terms": [
+        "gcp",
+        "go"
+      ],
+      "has_draft": true,
+      "category": "remote",
+      "visa_confidence": "explicit",
+      "agency_posted": false
+    },
+    {
+      "job_id": "JH-0083",
+      "company": "Monzo",
+      "role": "Machine Learning Platform Engineer",
+      "url": "https://job-boards.greenhouse.io/monzo/jobs/8020007",
+      "composite": 96,
+      "coverage_pct": 64,
+      "missing_terms": [
+        "distributed systems",
+        "gcp",
+        "go",
+        "tracing"
+      ],
+      "has_draft": true,
+      "category": "remote",
+      "visa_confidence": "explicit",
+      "agency_posted": false
+    },
+    {
+      "job_id": "JH-0082",
+      "company": "Monzo",
+      "role": "Backend Engineer III ",
+      "url": "https://job-boards.greenhouse.io/monzo/jobs/6635595",
+      "composite": 92,
+      "coverage_pct": 62,
+      "missing_terms": [
+        "distributed systems",
+        "gcp",
+        "go"
+      ],
+      "has_draft": true,
+      "category": "remote",
+      "visa_confidence": "explicit",
+      "agency_posted": false
+    },
+    {
+      "job_id": "JH-0084",
+      "company": "Monzo",
+      "role": "Senior Backend Engineer",
+      "url": "https://job-boards.greenhouse.io/monzo/jobs/6635837",
+      "composite": 92,
+      "coverage_pct": 62,
+      "missing_terms": [
+        "distributed systems",
+        "gcp",
+        "go"
+      ],
+      "has_draft": true,
+      "category": "remote",
+      "visa_confidence": "explicit",
+      "agency_posted": false
+    },
+    {
+      "job_id": "JH-0010",
+      "company": "CrowdStrike",
+      "role": "Sr. Infrastructure Engineer - Kubernetes (Remote)",
+      "url": "https://www.themuse.com/jobs/crowdstrike/sr-infrastructure-engineer-kubernetes-remote-32307e",
+      "composite": 96,
+      "coverage_pct": 60,
+      "missing_terms": [
+        "distributed systems",
+        "gcp",
+        "grafana",
+        "prometheus"
+      ],
+      "has_draft": true,
+      "category": "remote",
+      "visa_confidence": "inferred",
+      "agency_posted": false
+    },
+    {
+      "job_id": "JH-0085",
+      "company": "Monzo",
+      "role": "Senior Platform Engineer ",
+      "url": "https://job-boards.greenhouse.io/monzo/jobs/6699672",
+      "composite": 98,
+      "coverage_pct": 53,
+      "missing_terms": [
+        "gcp",
+        "go",
+        "infrastructure as code",
+        "microservices",
+        "networking",
+        "self-service",
+        "service mesh"
+      ],
+      "has_draft": true,
+      "category": "remote",
+      "visa_confidence": "explicit",
+      "agency_posted": false
+    },
+    {
+      "job_id": "JH-0007",
+      "company": "Vercel",
+      "role": "Software Engineer, Observability",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/5428982004",
+      "composite": 89,
+      "coverage_pct": 50,
+      "missing_terms": [
+        "distributed systems",
+        "go",
+        "typescript"
+      ],
+      "has_draft": true,
+      "category": "remote",
+      "visa_confidence": "inferred",
+      "agency_posted": false
+    },
+    {
+      "job_id": "JH-0009",
+      "company": "Atlassian",
+      "role": "Principal Backend Engineer, Jira Work Management",
+      "url": "https://www.themuse.com/jobs/atlassian/principal-backend-engineer-jira-work-management",
+      "composite": 76,
+      "coverage_pct": 50,
+      "missing_terms": [
+        "go"
+      ],
+      "has_draft": true,
+      "category": "remote",
+      "visa_confidence": "inferred",
+      "agency_posted": false
+    },
+    {
+      "job_id": "JH-0052",
+      "company": "Stripe",
+      "role": "Technical Program Manager, Core Infrastructure",
+      "url": "https://stripe.com/jobs/search?gh_jid=7589234",
+      "composite": 88,
+      "coverage_pct": 33,
+      "missing_terms": [
+        "distributed systems",
+        "networking"
+      ],
+      "has_draft": true,
+      "category": "remote",
+      "visa_confidence": "inferred",
+      "agency_posted": false
+    },
+    {
+      "job_id": "JH-0053",
+      "company": "Stripe",
+      "role": "Technical Program Manager, Service Infrastructure",
+      "url": "https://stripe.com/jobs/search?gh_jid=7985196",
+      "composite": 87,
+      "coverage_pct": 33,
+      "missing_terms": [
+        "distributed systems",
+        "networking"
+      ],
+      "has_draft": true,
+      "category": "remote",
+      "visa_confidence": "inferred",
+      "agency_posted": false
+    },
+    {
+      "job_id": "JH-0149",
+      "company": "NEEV LIMITED",
+      "role": "Site Reliability Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5789865443?se=VoIIpXSA8RGDMNFo9qkXsw&utm_medium=api&utm_source=1d9ce82d&v=4B16809AD62017804AA908018C4527340D4C5450",
+      "composite": 91,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "explicit",
+      "visa_confidence": "explicit",
+      "agency_posted": false
+    },
+    {
+      "job_id": "JH-0123",
+      "company": "MM Staffing & Career Consultants",
+      "role": "Lead Devops",
+      "url": "https://www.adzuna.co.uk/jobs/details/5727986254?utm_medium=api&utm_source=1d9ce82d",
+      "composite": 87,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "explicit",
+      "visa_confidence": "explicit",
+      "agency_posted": true
+    },
+    {
+      "job_id": "JH-0236",
+      "company": "Set2Recruit",
+      "role": "Infrastructure Engineer - Cloud",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5803456458?se=BsH4QJSB8RGuXZiVwx-Xkw&utm_medium=api&utm_source=1d9ce82d&v=D11DEB2A6EB4E4E916A63076823EAA351AD69FA8",
+      "composite": 86,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "explicit",
+      "visa_confidence": "explicit",
+      "agency_posted": true
+    },
     {
       "job_id": "JH-0125",
       "company": "VIQU Limited",
@@ -43,7 +360,10 @@
       "composite": 97,
       "coverage_pct": 100,
       "missing_terms": [],
-      "has_draft": true
+      "has_draft": true,
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false
     },
     {
       "job_id": "JH-0006",
@@ -53,7 +373,10 @@
       "composite": 96,
       "coverage_pct": 100,
       "missing_terms": [],
-      "has_draft": true
+      "has_draft": true,
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false
     },
     {
       "job_id": "JH-0118",
@@ -63,7 +386,10 @@
       "composite": 96,
       "coverage_pct": 100,
       "missing_terms": [],
-      "has_draft": true
+      "has_draft": true,
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false
     },
     {
       "job_id": "JH-0190",
@@ -73,7 +399,10 @@
       "composite": 96,
       "coverage_pct": 100,
       "missing_terms": [],
-      "has_draft": true
+      "has_draft": true,
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false
     },
     {
       "job_id": "JH-0014",
@@ -83,207 +412,10 @@
       "composite": 93,
       "coverage_pct": 100,
       "missing_terms": [],
-      "has_draft": true
-    },
-    {
-      "job_id": "JH-0015",
-      "company": "Stripe",
-      "role": "Backend / API Engineer, Payouts",
-      "url": "https://stripe.com/jobs/search?gh_jid=7369543",
-      "composite": 93,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true
-    },
-    {
-      "job_id": "JH-0017",
-      "company": "Stripe",
-      "role": "Backend Engineer/API, Payments and Risk",
-      "url": "https://stripe.com/jobs/search?gh_jid=4921361",
-      "composite": 93,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true
-    },
-    {
-      "job_id": "JH-0023",
-      "company": "Stripe",
-      "role": "Backend Engineer, Payments and Risk",
-      "url": "https://stripe.com/jobs/search?gh_jid=6163230",
-      "composite": 93,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true
-    },
-    {
-      "job_id": "JH-0024",
-      "company": "Stripe",
-      "role": "Backend Engineer, Payments and Risk",
-      "url": "https://stripe.com/jobs/search?gh_jid=7232592",
-      "composite": 93,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true
-    },
-    {
-      "job_id": "JH-0102",
-      "company": "Spectrum IT",
-      "role": "Senior AWS Engineer | SRE",
-      "url": "https://www.adzuna.co.uk/jobs/details/5790226490?utm_medium=api&utm_source=1d9ce82d",
-      "composite": 93,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true
-    },
-    {
-      "job_id": "JH-0115",
-      "company": "MCS Group",
-      "role": "Senior DevOps Engineer",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5800556155?se=VK6GonSA8RGDMNFo9qkXsw&utm_medium=api&utm_source=1d9ce82d&v=F56863315EB9DD4A2A251A5C65B8453754A30537",
-      "composite": 93,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true
-    },
-    {
-      "job_id": "JH-0156",
-      "company": "Spectrum IT",
-      "role": "Site Reliability Engineer",
-      "url": "https://www.adzuna.co.uk/jobs/details/5797175233?utm_medium=api&utm_source=1d9ce82d",
-      "composite": 93,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true
-    },
-    {
-      "job_id": "JH-0189",
-      "company": "Leidos",
-      "role": "AWS DevOps Engineer",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5801492070?se=Qh_hf-yA8RGDMNFo9qkXsw&utm_medium=api&utm_source=1d9ce82d&v=EA2D5B1F585765E73CD520EB20FD2E11FB90A212",
-      "composite": 93,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true
-    },
-    {
-      "job_id": "JH-0207",
-      "company": "Morgan McKinley",
-      "role": "Senior DevOps Engineer",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5799932292?se=0F78OZSB8RGBgLcYqW5wtQ&utm_medium=api&utm_source=1d9ce82d&v=CB658AC5F79E7E30612E8EBE7620C2C2383C787C",
-      "composite": 93,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true
-    },
-    {
-      "job_id": "JH-0209",
-      "company": "Leidos",
-      "role": "Senior DevOps Engineer",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5733140586?se=0F78OZSB8RGBgLcYqW5wtQ&utm_medium=api&utm_source=1d9ce82d&v=D1367F1B9320236D0CFBA2E89A76954599030800",
-      "composite": 93,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true
-    },
-    {
-      "job_id": "JH-0210",
-      "company": "Leidos",
-      "role": "Senior DevOps Engineer",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5733140637?se=0F78OZSB8RGBgLcYqW5wtQ&utm_medium=api&utm_source=1d9ce82d&v=CEC62CDA190247507C12BF385E8C2D6070DAAD4C",
-      "composite": 93,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true
-    },
-    {
-      "job_id": "JH-0099",
-      "company": "Admiral Group Plc",
-      "role": "Senior SRE Engineer",
-      "url": "https://www.adzuna.co.uk/jobs/details/5789988858?utm_medium=api&utm_source=1d9ce82d",
-      "composite": 92,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true
-    },
-    {
-      "job_id": "JH-0108",
-      "company": "The Investigo Group",
-      "role": "Senior Site Reliability Engineer (SRE)",
-      "url": "https://www.adzuna.co.uk/jobs/details/5749288725?utm_medium=api&utm_source=1d9ce82d",
-      "composite": 92,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true
-    },
-    {
-      "job_id": "JH-0109",
-      "company": "The Investigo Group",
-      "role": "Senior Site Reliability Engineer (SRE)",
-      "url": "https://www.adzuna.co.uk/jobs/details/5749288722?utm_medium=api&utm_source=1d9ce82d",
-      "composite": 92,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true
-    },
-    {
-      "job_id": "JH-0110",
-      "company": "The Investigo Group",
-      "role": "Senior Site Reliability Engineer (SRE)",
-      "url": "https://www.adzuna.co.uk/jobs/details/5749288724?utm_medium=api&utm_source=1d9ce82d",
-      "composite": 92,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true
-    },
-    {
-      "job_id": "JH-0111",
-      "company": "The Investigo Group",
-      "role": "Senior Site Reliability Engineer (SRE)",
-      "url": "https://www.adzuna.co.uk/jobs/details/5749288736?utm_medium=api&utm_source=1d9ce82d",
-      "composite": 92,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true
-    },
-    {
-      "job_id": "JH-0112",
-      "company": "The Investigo Group",
-      "role": "Senior Site Reliability Engineer (SRE)",
-      "url": "https://www.adzuna.co.uk/jobs/details/5749288727?utm_medium=api&utm_source=1d9ce82d",
-      "composite": 92,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true
-    },
-    {
-      "job_id": "JH-0113",
-      "company": "The Investigo Group",
-      "role": "Senior Site Reliability Engineer (SRE)",
-      "url": "https://www.adzuna.co.uk/jobs/details/5749288744?utm_medium=api&utm_source=1d9ce82d",
-      "composite": 92,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true
-    },
-    {
-      "job_id": "JH-0132",
-      "company": "Sanderson",
-      "role": "DevOps Engineer",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5789851249?se=VK6GonSA8RGDMNFo9qkXsw&utm_medium=api&utm_source=1d9ce82d&v=2F74B403512E0ED0AED3773D9E220AA09093AAF7",
-      "composite": 92,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true
-    },
-    {
-      "job_id": "JH-0154",
-      "company": "Orion Health",
-      "role": "Site Reliability Engineer",
-      "url": "https://www.adzuna.co.uk/jobs/details/5744635786?utm_medium=api&utm_source=1d9ce82d",
-      "composite": 92,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true
+      "has_draft": true,
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false
     }
   ],
   "followups_due": []
