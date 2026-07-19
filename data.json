@@ -1,28 +1,42 @@
 {
-  "generated_at": "2026-07-19T17:42:59.158507",
+  "generated_at": "2026-07-19T23:39:06.120611",
   "visa_deadline": "2026-12-01T00:00:00",
   "weekly_goal": 35,
   "applied_this_week": 1,
   "cumulative_top25_count": 50,
-  "status_counts": {
-    "Discovered": 216,
-    "Applied": 1
-  },
+  "status_counts": [
+    {
+      "Discovered": 196,
+      "Queued (agent)": 20,
+      "Applied": 1
+    },
+    1
+  ],
   "source_summary": [],
   "new_sponsors": [],
   "top_jobs": [
     {
-      "job_id": "JH-0016",
-      "company": "Stripe",
-      "role": "Backend Engineer, AI Security",
-      "url": "https://stripe.com/jobs/search?gh_jid=7826765",
-      "composite": 76,
-      "coverage_pct": 100,
-      "missing_terms": [],
+      "job_id": "JH-0069",
+      "company": "Datadog",
+      "role": "Senior Developer Advocate - Data Observability",
+      "url": "https://careers.datadoghq.com/detail/7555520/?gh_jid=7555520",
+      "composite": 94,
+      "coverage_pct": 89,
+      "missing_terms": [
+        "go"
+      ],
       "has_draft": true,
       "category": "remote",
       "visa_confidence": "inferred",
-      "agency_posted": false
+      "agency_posted": false,
+      "interview_score": 85,
+      "score_reasons": [
+        "ATS match 91% (weighted)",
+        "sponsorship: register-inferred",
+        "level: senior",
+        "role fit: tier1",
+        "posted: 10d old"
+      ]
     },
     {
       "job_id": "JH-0249",
@@ -37,7 +51,36 @@
       "has_draft": true,
       "category": "remote",
       "visa_confidence": "inferred",
-      "agency_posted": false
+      "agency_posted": false,
+      "interview_score": 84,
+      "score_reasons": [
+        "ATS match 89% (weighted)",
+        "sponsorship: register-inferred",
+        "level: mid (untitled)",
+        "role fit: tier1",
+        "posted: 1d old"
+      ]
+    },
+    {
+      "job_id": "JH-0016",
+      "company": "Stripe",
+      "role": "Backend Engineer, AI Security",
+      "url": "https://stripe.com/jobs/search?gh_jid=7826765",
+      "composite": 76,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "remote",
+      "visa_confidence": "inferred",
+      "agency_posted": false,
+      "interview_score": 82,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: mid (untitled)",
+        "role fit: tier2",
+        "posted: 23d old"
+      ]
     },
     {
       "job_id": "JH-0042",
@@ -52,23 +95,15 @@
       "has_draft": true,
       "category": "remote",
       "visa_confidence": "inferred",
-      "agency_posted": false
-    },
-    {
-      "job_id": "JH-0069",
-      "company": "Datadog",
-      "role": "Senior Developer Advocate - Data Observability",
-      "url": "https://careers.datadoghq.com/detail/7555520/?gh_jid=7555520",
-      "composite": 94,
-      "coverage_pct": 78,
-      "missing_terms": [
-        "go",
-        "networking"
-      ],
-      "has_draft": true,
-      "category": "remote",
-      "visa_confidence": "inferred",
-      "agency_posted": false
+      "agency_posted": false,
+      "interview_score": 80,
+      "score_reasons": [
+        "ATS match 86% (weighted)",
+        "sponsorship: register-inferred",
+        "level: mid (untitled)",
+        "role fit: tier1",
+        "posted: 23d old"
+      ]
     },
     {
       "job_id": "JH-0059",
@@ -76,330 +111,440 @@
       "role": "Engineering Manager II - APM DCS Platform Delivery",
       "url": "https://careers.datadoghq.com/detail/8046089/?gh_jid=8046089",
       "composite": 89,
-      "coverage_pct": 75,
-      "missing_terms": [
-        "networking"
-      ],
+      "coverage_pct": 100,
+      "missing_terms": [],
       "has_draft": true,
       "category": "remote",
       "visa_confidence": "inferred",
-      "agency_posted": false
+      "agency_posted": false,
+      "interview_score": 79,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: manager",
+        "role fit: tier1",
+        "posted: 9d old"
+      ]
     },
     {
-      "job_id": "JH-0011",
-      "company": "Kyndryl",
-      "role": "Backend Developer- Python",
-      "url": "https://www.themuse.com/jobs/kyndryl/backend-developer-python-40021d",
-      "composite": 96,
-      "coverage_pct": 73,
-      "missing_terms": [
-        "gcp",
-        "k8s",
-        "microservices"
-      ],
+      "job_id": "JH-0099",
+      "company": "Admiral Group Plc",
+      "role": "Senior SRE Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/details/5789988858?utm_medium=api&utm_source=1d9ce82d",
+      "composite": 92,
+      "coverage_pct": 100,
+      "missing_terms": [],
       "has_draft": true,
-      "category": "remote",
+      "category": "inferred",
       "visa_confidence": "inferred",
-      "agency_posted": false
+      "agency_posted": false,
+      "interview_score": 89,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: senior",
+        "role fit: tier1",
+        "posted: 13d old"
+      ]
     },
     {
-      "job_id": "JH-0086",
-      "company": "Monzo",
-      "role": "Senior Staff Backend Engineer",
-      "url": "https://job-boards.greenhouse.io/monzo/jobs/6036797",
-      "composite": 92,
-      "coverage_pct": 67,
-      "missing_terms": [
-        "gcp",
-        "go"
-      ],
-      "has_draft": true,
-      "category": "remote",
-      "visa_confidence": "explicit",
-      "agency_posted": false
-    },
-    {
-      "job_id": "JH-0083",
-      "company": "Monzo",
-      "role": "Machine Learning Platform Engineer",
-      "url": "https://job-boards.greenhouse.io/monzo/jobs/8020007",
-      "composite": 96,
-      "coverage_pct": 64,
-      "missing_terms": [
-        "distributed systems",
-        "gcp",
-        "go",
-        "tracing"
-      ],
-      "has_draft": true,
-      "category": "remote",
-      "visa_confidence": "explicit",
-      "agency_posted": false
-    },
-    {
-      "job_id": "JH-0082",
-      "company": "Monzo",
-      "role": "Backend Engineer III ",
-      "url": "https://job-boards.greenhouse.io/monzo/jobs/6635595",
-      "composite": 92,
-      "coverage_pct": 62,
-      "missing_terms": [
-        "distributed systems",
-        "gcp",
-        "go"
-      ],
-      "has_draft": true,
-      "category": "remote",
-      "visa_confidence": "explicit",
-      "agency_posted": false
-    },
-    {
-      "job_id": "JH-0084",
-      "company": "Monzo",
-      "role": "Senior Backend Engineer",
-      "url": "https://job-boards.greenhouse.io/monzo/jobs/6635837",
-      "composite": 92,
-      "coverage_pct": 62,
-      "missing_terms": [
-        "distributed systems",
-        "gcp",
-        "go"
-      ],
-      "has_draft": true,
-      "category": "remote",
-      "visa_confidence": "explicit",
-      "agency_posted": false
-    },
-    {
-      "job_id": "JH-0010",
-      "company": "CrowdStrike",
-      "role": "Sr. Infrastructure Engineer - Kubernetes (Remote)",
-      "url": "https://www.themuse.com/jobs/crowdstrike/sr-infrastructure-engineer-kubernetes-remote-32307e",
-      "composite": 96,
-      "coverage_pct": 60,
-      "missing_terms": [
-        "distributed systems",
-        "gcp",
-        "grafana",
-        "prometheus"
-      ],
-      "has_draft": true,
-      "category": "remote",
-      "visa_confidence": "inferred",
-      "agency_posted": false
-    },
-    {
-      "job_id": "JH-0085",
-      "company": "Monzo",
-      "role": "Senior Platform Engineer ",
-      "url": "https://job-boards.greenhouse.io/monzo/jobs/6699672",
-      "composite": 98,
-      "coverage_pct": 53,
-      "missing_terms": [
-        "gcp",
-        "go",
-        "infrastructure as code",
-        "microservices",
-        "networking",
-        "self-service",
-        "service mesh"
-      ],
-      "has_draft": true,
-      "category": "remote",
-      "visa_confidence": "explicit",
-      "agency_posted": false
-    },
-    {
-      "job_id": "JH-0248",
-      "company": "Palo Alto Networks",
-      "role": "Principal Engineer Software, Dev & Production Infrastructure (Chronosphere)",
-      "url": "https://www.themuse.com/jobs/paloaltonetworks/principal-engineer-software-dev-production-infrastructure-chronosphere",
-      "composite": 102,
-      "coverage_pct": 50,
-      "missing_terms": [
-        "developer platform",
-        "distributed systems",
-        "gcp",
-        "go",
-        "infrastructure as code",
-        "microservices",
-        "networking",
-        "rust",
-        "telemetry",
-        "tracing"
-      ],
-      "has_draft": true,
-      "category": "remote",
-      "visa_confidence": "explicit",
-      "agency_posted": false
-    },
-    {
-      "job_id": "JH-0007",
-      "company": "Vercel",
-      "role": "Software Engineer, Observability",
-      "url": "https://job-boards.greenhouse.io/vercel/jobs/5428982004",
+      "job_id": "JH-0226",
+      "company": "Kainos",
+      "role": "Senior Platform Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5789989541?se=cA8YPJSB8RGdn9_VQl9Q1A&utm_medium=api&utm_source=1d9ce82d&v=94AD7EA54535E3C345FB940EE64FD8A5CD4959CC",
       "composite": 89,
-      "coverage_pct": 50,
-      "missing_terms": [
-        "distributed systems",
-        "go",
-        "typescript"
-      ],
-      "has_draft": true,
-      "category": "remote",
-      "visa_confidence": "inferred",
-      "agency_posted": false
-    },
-    {
-      "job_id": "JH-0009",
-      "company": "Atlassian",
-      "role": "Principal Backend Engineer, Jira Work Management",
-      "url": "https://www.themuse.com/jobs/atlassian/principal-backend-engineer-jira-work-management",
-      "composite": 76,
-      "coverage_pct": 50,
-      "missing_terms": [
-        "go"
-      ],
-      "has_draft": true,
-      "category": "remote",
-      "visa_confidence": "inferred",
-      "agency_posted": false
-    },
-    {
-      "job_id": "JH-0052",
-      "company": "Stripe",
-      "role": "Technical Program Manager, Core Infrastructure",
-      "url": "https://stripe.com/jobs/search?gh_jid=7589234",
-      "composite": 88,
-      "coverage_pct": 33,
-      "missing_terms": [
-        "distributed systems",
-        "networking"
-      ],
-      "has_draft": true,
-      "category": "remote",
-      "visa_confidence": "inferred",
-      "agency_posted": false
-    },
-    {
-      "job_id": "JH-0053",
-      "company": "Stripe",
-      "role": "Technical Program Manager, Service Infrastructure",
-      "url": "https://stripe.com/jobs/search?gh_jid=7985196",
-      "composite": 87,
-      "coverage_pct": 33,
-      "missing_terms": [
-        "distributed systems",
-        "networking"
-      ],
-      "has_draft": true,
-      "category": "remote",
-      "visa_confidence": "inferred",
-      "agency_posted": false
-    },
-    {
-      "job_id": "JH-0149",
-      "company": "NEEV LIMITED",
-      "role": "Site Reliability Engineer",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5789865443?se=VoIIpXSA8RGDMNFo9qkXsw&utm_medium=api&utm_source=1d9ce82d&v=4B16809AD62017804AA908018C4527340D4C5450",
-      "composite": 91,
       "coverage_pct": 100,
       "missing_terms": [],
       "has_draft": true,
-      "category": "explicit",
-      "visa_confidence": "explicit",
-      "agency_posted": false
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false,
+      "interview_score": 89,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: senior",
+        "role fit: tier1",
+        "posted: 13d old"
+      ]
     },
     {
-      "job_id": "JH-0123",
-      "company": "MM Staffing & Career Consultants",
-      "role": "Lead Devops",
-      "url": "https://www.adzuna.co.uk/jobs/details/5727986254?utm_medium=api&utm_source=1d9ce82d",
+      "job_id": "JH-0206",
+      "company": "Tes",
+      "role": "Senior Site Reliability Engineer (SRE)",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5789989890?se=LqqDNpSB8RGuXZiVwx-Xkw&utm_medium=api&utm_source=1d9ce82d&v=E3C1988CF9A2D4FFD3F5E45C65FEAD42A6152EEA",
       "composite": 87,
       "coverage_pct": 100,
       "missing_terms": [],
       "has_draft": true,
-      "category": "explicit",
-      "visa_confidence": "explicit",
-      "agency_posted": true
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false,
+      "interview_score": 89,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: senior",
+        "role fit: tier1",
+        "posted: 13d old"
+      ]
     },
     {
-      "job_id": "JH-0236",
-      "company": "Set2Recruit",
-      "role": "Infrastructure Engineer - Cloud",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5803456458?se=BsH4QJSB8RGuXZiVwx-Xkw&utm_medium=api&utm_source=1d9ce82d&v=D11DEB2A6EB4E4E916A63076823EAA351AD69FA8",
-      "composite": 86,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true,
-      "category": "explicit",
-      "visa_confidence": "explicit",
-      "agency_posted": true
-    },
-    {
-      "job_id": "JH-0125",
-      "company": "VIQU Limited",
-      "role": "DevOps Engineer",
-      "url": "https://www.adzuna.co.uk/jobs/details/5781439408?utm_medium=api&utm_source=1d9ce82d",
-      "composite": 97,
+      "job_id": "JH-0197",
+      "company": "Leonardo",
+      "role": "Senior Platform Engineer (RHEL)",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5789989174?se=VhtGg-yA8RGDMNFo9qkXsw&utm_medium=api&utm_source=1d9ce82d&v=619FAFEF9BC24927C8EA812684EEF1B06BAC6DAC",
+      "composite": 85,
       "coverage_pct": 100,
       "missing_terms": [],
       "has_draft": true,
       "category": "inferred",
       "visa_confidence": "inferred",
-      "agency_posted": false
+      "agency_posted": false,
+      "interview_score": 89,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: senior",
+        "role fit: tier1",
+        "posted: 13d old"
+      ]
     },
     {
-      "job_id": "JH-0006",
-      "company": "Genomics England",
-      "role": "Platform Engineer",
-      "url": "https://www.genomicsengland.co.uk/careers/open-positions/platform-engineer-cloud-centre-of-excellence-ccoe",
-      "composite": 96,
+      "job_id": "JH-0213",
+      "company": "Arbor Education",
+      "role": "Senior DevOps Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5789988542?se=0F78OZSB8RGBgLcYqW5wtQ&utm_medium=api&utm_source=1d9ce82d&v=827779342DE4EBF449FF6A57139824996DB2A7B1",
+      "composite": 85,
       "coverage_pct": 100,
       "missing_terms": [],
       "has_draft": true,
       "category": "inferred",
       "visa_confidence": "inferred",
-      "agency_posted": false
+      "agency_posted": false,
+      "interview_score": 89,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: senior",
+        "role fit: tier1",
+        "posted: 13d old"
+      ]
     },
     {
-      "job_id": "JH-0118",
-      "company": "FDM Group",
-      "role": "DevOps Engineer - Leatherhead",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5801149760?se=VK6GonSA8RGDMNFo9qkXsw&utm_medium=api&utm_source=1d9ce82d&v=1774AE65718014C90AF5421E665908A38C10CD24",
-      "composite": 96,
+      "job_id": "JH-0223",
+      "company": "Leonardo",
+      "role": "Senior Platform Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5789989176?se=cA8YPJSB8RGdn9_VQl9Q1A&utm_medium=api&utm_source=1d9ce82d&v=C85D95D1420339B379E61B8A6035643EE34D2E83",
+      "composite": 85,
       "coverage_pct": 100,
       "missing_terms": [],
       "has_draft": true,
       "category": "inferred",
       "visa_confidence": "inferred",
-      "agency_posted": false
+      "agency_posted": false,
+      "interview_score": 89,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: senior",
+        "role fit: tier1",
+        "posted: 13d old"
+      ]
     },
     {
-      "job_id": "JH-0190",
-      "company": "Next Ltd",
-      "role": "DevOps Engineer - WHS",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5799595260?se=Qh_hf-yA8RGDMNFo9qkXsw&utm_medium=api&utm_source=1d9ce82d&v=7153C20CEF1931A702581DFD24ED9A87BAF7E2A8",
-      "composite": 96,
+      "job_id": "JH-0245",
+      "company": "Kainos",
+      "role": "Senior Platform Engineer - AWS",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5791233435?se=WMP7h76B8RGCrfcnA6zV9Q&utm_medium=api&utm_source=1d9ce82d&v=D2A4BFADAD20EA31C46381F06F01047968904FB0",
+      "composite": 79,
       "coverage_pct": 100,
       "missing_terms": [],
       "has_draft": true,
       "category": "inferred",
       "visa_confidence": "inferred",
-      "agency_posted": false
+      "agency_posted": false,
+      "interview_score": 89,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: senior",
+        "role fit: tier1",
+        "posted: 12d old"
+      ]
     },
     {
-      "job_id": "JH-0014",
-      "company": "Stripe",
-      "role": "Backend/API Engineer, Money as a Service",
-      "url": "https://stripe.com/jobs/search?gh_jid=6176758",
+      "job_id": "JH-0189",
+      "company": "Leidos",
+      "role": "AWS DevOps Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5801492070?se=Qh_hf-yA8RGDMNFo9qkXsw&utm_medium=api&utm_source=1d9ce82d&v=EA2D5B1F585765E73CD520EB20FD2E11FB90A212",
       "composite": 93,
       "coverage_pct": 100,
       "missing_terms": [],
       "has_draft": true,
       "category": "inferred",
       "visa_confidence": "inferred",
-      "agency_posted": false
+      "agency_posted": false,
+      "interview_score": 88,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: mid (untitled)",
+        "role fit: tier1",
+        "posted: 4d old"
+      ]
+    },
+    {
+      "job_id": "JH-0132",
+      "company": "Sanderson",
+      "role": "DevOps Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5789851249?se=VK6GonSA8RGDMNFo9qkXsw&utm_medium=api&utm_source=1d9ce82d&v=2F74B403512E0ED0AED3773D9E220AA09093AAF7",
+      "composite": 92,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false,
+      "interview_score": 88,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: mid (untitled)",
+        "role fit: tier1",
+        "posted: 13d old"
+      ]
+    },
+    {
+      "job_id": "JH-0162",
+      "company": "CGI",
+      "role": "Site Reliability Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/details/5789181014?utm_medium=api&utm_source=1d9ce82d",
+      "composite": 92,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false,
+      "interview_score": 88,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: mid (untitled)",
+        "role fit: tier1",
+        "posted: 14d old"
+      ]
+    },
+    {
+      "job_id": "JH-0211",
+      "company": "Tombola",
+      "role": "DevOps Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5797127674?se=0F78OZSB8RGBgLcYqW5wtQ&utm_medium=api&utm_source=1d9ce82d&v=C34DFD8C0506981840BCE659A0B63C1DCE355214",
+      "composite": 92,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false,
+      "interview_score": 88,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: mid (untitled)",
+        "role fit: tier1",
+        "posted: 8d old"
+      ]
+    },
+    {
+      "job_id": "JH-0192",
+      "company": "Barclays",
+      "role": "ITSM Platform Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5789988564?se=VhtGg-yA8RGDMNFo9qkXsw&utm_medium=api&utm_source=1d9ce82d&v=AC105B2FEE36ACFFC87B139A9141002B59019BEF",
+      "composite": 91,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false,
+      "interview_score": 88,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: mid (untitled)",
+        "role fit: tier1",
+        "posted: 13d old"
+      ]
+    },
+    {
+      "job_id": "JH-0107",
+      "company": "Barclays",
+      "role": "Site Reliability Engineer (SRE)",
+      "url": "https://www.adzuna.co.uk/jobs/details/5795167671?utm_medium=api&utm_source=1d9ce82d",
+      "composite": 89,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false,
+      "interview_score": 88,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: mid (untitled)",
+        "role fit: tier1",
+        "posted: 9d old"
+      ]
+    },
+    {
+      "job_id": "JH-0117",
+      "company": "Defence",
+      "role": "Cloud Systems / DevOps Solutions Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5800214163?se=VK6GonSA8RGDMNFo9qkXsw&utm_medium=api&utm_source=1d9ce82d&v=AE56212619FF6BE9CD3B633C537F3B97A67649B4",
+      "composite": 89,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false,
+      "interview_score": 88,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: mid (untitled)",
+        "role fit: tier1",
+        "posted: 5d old"
+      ]
+    },
+    {
+      "job_id": "JH-0186",
+      "company": "Southern Water",
+      "role": "DevOps Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5791158368?se=Qh_hf-yA8RGDMNFo9qkXsw&utm_medium=api&utm_source=1d9ce82d&v=1A9BB5C468A34AF934F1B61BAF02E81DB5F40272",
+      "composite": 89,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false,
+      "interview_score": 88,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: mid (untitled)",
+        "role fit: tier1",
+        "posted: 12d old"
+      ]
+    },
+    {
+      "job_id": "JH-0231",
+      "company": "Barclays",
+      "role": "MongoDB Site Reliability Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5789988706?se=djvUPpSB8RGCrfcnA6zV9Q&utm_medium=api&utm_source=1d9ce82d&v=B06CD4DB23014C5837F804BBCD578E16C5440CD0",
+      "composite": 89,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false,
+      "interview_score": 88,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: mid (untitled)",
+        "role fit: tier1",
+        "posted: 13d old"
+      ]
+    },
+    {
+      "job_id": "JH-0232",
+      "company": "Barclays",
+      "role": "Oracle Site Reliability Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5803541522?se=djvUPpSB8RGCrfcnA6zV9Q&utm_medium=api&utm_source=1d9ce82d&v=5062A895A87315591E7E1CB614B406B0DCDBB05C",
+      "composite": 89,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false,
+      "interview_score": 88,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: mid (untitled)",
+        "role fit: tier1",
+        "posted: 3d old"
+      ]
+    },
+    {
+      "job_id": "JH-0139",
+      "company": "Indotronix Avani UK Ltd",
+      "role": "Oracle Cloud Infrastructure Platform Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5800497955?se=XBjIo3SA8RGDMNFo9qkXsw&utm_medium=api&utm_source=1d9ce82d&v=47CFF58D835C90C3B933AE7486CD398714AD8374",
+      "composite": 88,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false,
+      "interview_score": 88,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: mid (untitled)",
+        "role fit: tier1",
+        "posted: 4d old"
+      ]
+    },
+    {
+      "job_id": "JH-0182",
+      "company": "Leidos",
+      "role": "Cloud Infrastructure Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5801373329?se=AoxgpnSA8RGDMNFo9qkXsw&utm_medium=api&utm_source=1d9ce82d&v=3B193C3298DA97691D49DA6613E96CB2858C856F",
+      "composite": 88,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false,
+      "interview_score": 88,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: mid (untitled)",
+        "role fit: tier1",
+        "posted: 4d old"
+      ]
+    },
+    {
+      "job_id": "JH-0063",
+      "company": "Datadog",
+      "role": "Manager I, Engineering - AI Platform - Evaluation & Annotation",
+      "url": "https://careers.datadoghq.com/detail/7965428/?gh_jid=7965428",
+      "composite": 87,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false,
+      "interview_score": 88,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: mid (untitled)",
+        "role fit: tier1",
+        "posted: 11d old"
+      ]
     }
   ],
   "followups_due": []
