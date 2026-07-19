@@ -1,45 +1,14 @@
 {
-  "generated_at": "2026-07-19T12:34:36.538071",
+  "generated_at": "2026-07-19T12:45:56.636049",
   "visa_deadline": "2026-12-01T00:00:00",
   "weekly_goal": 35,
   "applied_this_week": 1,
   "status_counts": {
-    "Discovered": 258,
+    "Discovered": 214,
     "Applied": 1
   },
-  "source_summary": [
-    {
-      "name": "themuse",
-      "count": 58,
-      "errors": 0
-    },
-    {
-      "name": "greenhouse",
-      "count": 1009,
-      "errors": 0
-    },
-    {
-      "name": "lever",
-      "count": 0,
-      "errors": 0
-    },
-    {
-      "name": "reed",
-      "count": 346,
-      "errors": 0
-    },
-    {
-      "name": "adzuna",
-      "count": 400,
-      "errors": 0
-    }
-  ],
-  "new_sponsors": [
-    "Betty Technology UK Ltd.",
-    "Scarlet O2 Ltd t/a Scarlet Rasoi, IThai and Naan Wrap",
-    "THE LONDON ORTHOTIC CONSULTANCY LIMITED",
-    "Three Plus Consulting Ltd"
-  ],
+  "source_summary": [],
+  "new_sponsors": [],
   "top_jobs": [
     {
       "job_id": "JH-0016",
@@ -116,21 +85,6 @@
       "agency_posted": false
     },
     {
-      "job_id": "JH-0061",
-      "company": "Datadog",
-      "role": "Engineering Manager II - APM DCS Platform Delivery",
-      "url": "https://careers.datadoghq.com/detail/8045998/?gh_jid=8045998",
-      "composite": 89,
-      "coverage_pct": 75,
-      "missing_terms": [
-        "networking"
-      ],
-      "has_draft": true,
-      "category": "remote",
-      "visa_confidence": "inferred",
-      "agency_posted": false
-    },
-    {
       "job_id": "JH-0011",
       "company": "Kyndryl",
       "role": "Backend Developer- Python",
@@ -145,22 +99,6 @@
       "has_draft": true,
       "category": "remote",
       "visa_confidence": "inferred",
-      "agency_posted": false
-    },
-    {
-      "job_id": "JH-0088",
-      "company": "Monzo",
-      "role": "Staff Backend Engineer ",
-      "url": "https://job-boards.greenhouse.io/monzo/jobs/6636147",
-      "composite": 92,
-      "coverage_pct": 71,
-      "missing_terms": [
-        "distributed systems",
-        "go"
-      ],
-      "has_draft": true,
-      "category": "remote",
-      "visa_confidence": "explicit",
       "agency_posted": false
     },
     {
@@ -320,6 +258,38 @@
       "coverage_pct": 50,
       "missing_terms": [
         "go"
+      ],
+      "has_draft": true,
+      "category": "remote",
+      "visa_confidence": "inferred",
+      "agency_posted": false
+    },
+    {
+      "job_id": "JH-0052",
+      "company": "Stripe",
+      "role": "Technical Program Manager, Core Infrastructure",
+      "url": "https://stripe.com/jobs/search?gh_jid=7589234",
+      "composite": 88,
+      "coverage_pct": 33,
+      "missing_terms": [
+        "distributed systems",
+        "networking"
+      ],
+      "has_draft": true,
+      "category": "remote",
+      "visa_confidence": "inferred",
+      "agency_posted": false
+    },
+    {
+      "job_id": "JH-0053",
+      "company": "Stripe",
+      "role": "Technical Program Manager, Service Infrastructure",
+      "url": "https://stripe.com/jobs/search?gh_jid=7985196",
+      "composite": 87,
+      "coverage_pct": 33,
+      "missing_terms": [
+        "distributed systems",
+        "networking"
       ],
       "has_draft": true,
       "category": "remote",
