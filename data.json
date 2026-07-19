@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-19T13:01:19.641030",
+  "generated_at": "2026-07-19T13:51:14.317387",
   "visa_deadline": "2026-12-01T00:00:00",
   "weekly_goal": 35,
   "applied_this_week": 1,
   "status_counts": {
-    "Discovered": 214,
+    "Discovered": 216,
     "Applied": 1
   },
   "source_summary": [
