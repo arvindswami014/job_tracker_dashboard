@@ -1,18 +1,41 @@
 {
-  "generated_at": "2026-07-19T23:39:06.120611",
+  "generated_at": "2026-07-19T23:52:40.975317",
   "visa_deadline": "2026-12-01T00:00:00",
   "weekly_goal": 35,
   "applied_this_week": 1,
-  "cumulative_top25_count": 50,
-  "status_counts": [
+  "cumulative_top25_count": 66,
+  "status_counts": {
+    "Discovered": 206,
+    "Queued (agent)": 20,
+    "Applied": 1
+  },
+  "source_summary": [
     {
-      "Discovered": 196,
-      "Queued (agent)": 20,
-      "Applied": 1
+      "name": "themuse",
+      "count": 58,
+      "errors": 0
     },
-    1
+    {
+      "name": "greenhouse",
+      "count": 1009,
+      "errors": 0
+    },
+    {
+      "name": "lever",
+      "count": 0,
+      "errors": 0
+    },
+    {
+      "name": "reed",
+      "count": 346,
+      "errors": 0
+    },
+    {
+      "name": "adzuna",
+      "count": 400,
+      "errors": 0
+    }
   ],
-  "source_summary": [],
   "new_sponsors": [],
   "top_jobs": [
     {
@@ -124,6 +147,27 @@
         "level: manager",
         "role fit: tier1",
         "posted: 9d old"
+      ]
+    },
+    {
+      "job_id": "JH-0268",
+      "company": "Set2Recruit",
+      "role": "Infrastructure Engineer - Cloud",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5805497721?se=wIG6P8WD8RGFMa6bWHzthQ&utm_medium=api&utm_source=1d9ce82d&v=844B2D5AFB06A86C518C95473A39FB7DE3AF7B29",
+      "composite": 86,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "explicit",
+      "visa_confidence": "explicit",
+      "agency_posted": true,
+      "interview_score": 87,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: agency-posted, JD claims sponsorship",
+        "level: mid (untitled)",
+        "role fit: tier1",
+        "posted: 1d old"
       ]
     },
     {
@@ -523,27 +567,6 @@
         "level: mid (untitled)",
         "role fit: tier1",
         "posted: 4d old"
-      ]
-    },
-    {
-      "job_id": "JH-0063",
-      "company": "Datadog",
-      "role": "Manager I, Engineering - AI Platform - Evaluation & Annotation",
-      "url": "https://careers.datadoghq.com/detail/7965428/?gh_jid=7965428",
-      "composite": 87,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true,
-      "category": "inferred",
-      "visa_confidence": "inferred",
-      "agency_posted": false,
-      "interview_score": 88,
-      "score_reasons": [
-        "ATS match 100% (weighted)",
-        "sponsorship: register-inferred",
-        "level: mid (untitled)",
-        "role fit: tier1",
-        "posted: 11d old"
       ]
     }
   ],
