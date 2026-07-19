@@ -296,6 +296,7 @@
   .badge.good { background: var(--good-soft); color: var(--good); }
   .badge.warn { background: var(--warn-soft); color: var(--warn); }
   .badge.low { background: var(--low-soft); color: var(--low); }
+  .badge.info { background: var(--surface-2); color: var(--text-dim); }
   .gap-tag {
     font-size: 11px; color: var(--text-dim); background: var(--surface-2);
     padding: 2px 8px; border-radius: 99px;
@@ -486,6 +487,17 @@
     return "low";
   }
 
+  const CATEGORY_LABELS = {
+    council: "🏛️ Council / Public Sector",
+    remote: "🏠 Remote / Hybrid",
+    explicit: "✅ Sponsorship stated",
+    inferred: "📋 Sponsor inferred",
+  };
+  const CONFIDENCE_LABELS = {
+    explicit: "✅ JD states sponsorship",
+    inferred: "📋 Inferred from GOV.UK register",
+  };
+
   let deadline = null;
   function tickCountdown() {
     if (deadline === null) return;
@@ -519,12 +531,14 @@
     document.getElementById("goalPct").textContent = goalPct + "%";
     document.getElementById("goalFill").style.width = goalPct + "%";
 
-    // Pipeline stats
+    // Pipeline stats -- cumulative top-25 picks (real progress: distinct jobs that have ever
+    // been good enough to rank into a day's shortlist) instead of raw tracker size, where most
+    // rows are hard-filtered noise nobody reviews. Status breakdown still shown for anything
+    // past discovery (Applied/Interview/Offer/Rejected), just not the "Discovered" bucket itself.
     const statusCounts = DATA.status_counts || {};
-    const total = Object.values(statusCounts).reduce((a, b) => a + b, 0);
-    const order = ["Discovered", "Applied", "Interview", "Rejected", "Offer"];
-    const seenKeys = new Set();
-    const rows = [["Total tracked", total]];
+    const order = ["Applied", "Interview", "Offer", "Rejected"];
+    const seenKeys = new Set(["Discovered"]);
+    const rows = [["Cumulative top-25 picks", DATA.cumulative_top25_count || 0]];
     order.forEach((k) => { if (statusCounts[k] !== undefined) { rows.push([k, statusCounts[k]]); seenKeys.add(k); } });
     Object.keys(statusCounts).forEach((k) => { if (!seenKeys.has(k)) rows.push([k, statusCounts[k]]); });
     document.getElementById("statGrid").innerHTML = rows
@@ -544,6 +558,20 @@
         const draftBadge = j.has_draft
           ? '<span class="badge draft">📄 Draft ready locally</span>'
           : "";
+        const categoryBadge = CATEGORY_LABELS[j.category]
+          ? `<span class="badge info">${CATEGORY_LABELS[j.category]}</span>`
+          : "";
+        // Only show the confidence badge when the category badge doesn't already say it --
+        // "explicit"/"inferred" categories already convey this; council/remote picks don't.
+        const showConfidence = j.category !== "explicit" && j.category !== "inferred";
+        const confidenceBadge = showConfidence && CONFIDENCE_LABELS[j.visa_confidence]
+          ? `<span class="badge ${j.visa_confidence === "explicit" ? "good" : "warn"}">${CONFIDENCE_LABELS[j.visa_confidence]}</span>`
+          : "";
+        // Only flag agency involvement when the visa evidence isn't the JD's own words --
+        // if the JD itself states sponsorship, who posted it doesn't change that fact.
+        const agencyBadge = j.agency_posted && j.visa_confidence !== "explicit"
+          ? '<span class="badge low">⚠️ Agency-posted, verify with them</span>'
+          : "";
         return `
           <div class="job-card">
             <div class="job-top">
@@ -560,6 +588,9 @@
               <span class="badge ${band}">${j.coverage_pct}% CV match</span>
               <span class="badge good">Score ${j.composite}</span>
               ${draftBadge}
+              ${categoryBadge}
+              ${confidenceBadge}
+              ${agencyBadge}
               ${gaps}
             </div>
             <a class="job-link" href="${j.url}" target="_blank" rel="noopener">Open posting →</a>
