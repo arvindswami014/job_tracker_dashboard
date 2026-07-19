@@ -1,39 +1,14 @@
 {
-  "generated_at": "2026-07-19T13:51:14.317387",
+  "generated_at": "2026-07-19T17:42:59.158507",
   "visa_deadline": "2026-12-01T00:00:00",
   "weekly_goal": 35,
   "applied_this_week": 1,
+  "cumulative_top25_count": 50,
   "status_counts": {
     "Discovered": 216,
     "Applied": 1
   },
-  "source_summary": [
-    {
-      "name": "themuse",
-      "count": 58,
-      "errors": 0
-    },
-    {
-      "name": "greenhouse",
-      "count": 1009,
-      "errors": 0
-    },
-    {
-      "name": "lever",
-      "count": 0,
-      "errors": 0
-    },
-    {
-      "name": "reed",
-      "count": 346,
-      "errors": 0
-    },
-    {
-      "name": "adzuna",
-      "count": 400,
-      "errors": 0
-    }
-  ],
+  "source_summary": [],
   "new_sponsors": [],
   "top_jobs": [
     {
