@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-07-17T10:00:02.289881",
+  "generated_at": "2026-07-19T12:34:36.538071",
   "visa_deadline": "2026-12-01T00:00:00",
   "weekly_goal": 35,
-  "applied_this_week": 0,
+  "applied_this_week": 1,
   "status_counts": {
-    "Discovered": 246
+    "Discovered": 258,
+    "Applied": 1
   },
   "source_summary": [
     {
@@ -14,7 +15,7 @@
     },
     {
       "name": "greenhouse",
-      "count": 1011,
+      "count": 1009,
       "errors": 0
     },
     {
@@ -24,7 +25,7 @@
     },
     {
       "name": "reed",
-      "count": 352,
+      "count": 346,
       "errors": 0
     },
     {
@@ -33,7 +34,12 @@
       "errors": 0
     }
   ],
-  "new_sponsors": [],
+  "new_sponsors": [
+    "Betty Technology UK Ltd.",
+    "Scarlet O2 Ltd t/a Scarlet Rasoi, IThai and Naan Wrap",
+    "THE LONDON ORTHOTIC CONSULTANCY LIMITED",
+    "Three Plus Consulting Ltd"
+  ],
   "top_jobs": [
     {
       "job_id": "JH-0016",
@@ -43,6 +49,21 @@
       "composite": 76,
       "coverage_pct": 100,
       "missing_terms": [],
+      "has_draft": true,
+      "category": "remote",
+      "visa_confidence": "inferred",
+      "agency_posted": false
+    },
+    {
+      "job_id": "JH-0249",
+      "company": "iRhythm Technologies",
+      "role": "IT Infrastructure  Engineer - Network",
+      "url": "https://www.themuse.com/jobs/irhythmtechnologies/it-infrastructure-engineer-network",
+      "composite": 86,
+      "coverage_pct": 86,
+      "missing_terms": [
+        "sox"
+      ],
       "has_draft": true,
       "category": "remote",
       "visa_confidence": "inferred",
@@ -250,6 +271,30 @@
       "agency_posted": false
     },
     {
+      "job_id": "JH-0248",
+      "company": "Palo Alto Networks",
+      "role": "Principal Engineer Software, Dev & Production Infrastructure (Chronosphere)",
+      "url": "https://www.themuse.com/jobs/paloaltonetworks/principal-engineer-software-dev-production-infrastructure-chronosphere",
+      "composite": 102,
+      "coverage_pct": 50,
+      "missing_terms": [
+        "developer platform",
+        "distributed systems",
+        "gcp",
+        "go",
+        "infrastructure as code",
+        "microservices",
+        "networking",
+        "rust",
+        "telemetry",
+        "tracing"
+      ],
+      "has_draft": true,
+      "category": "remote",
+      "visa_confidence": "explicit",
+      "agency_posted": false
+    },
+    {
       "job_id": "JH-0007",
       "company": "Vercel",
       "role": "Software Engineer, Observability",
@@ -275,38 +320,6 @@
       "coverage_pct": 50,
       "missing_terms": [
         "go"
-      ],
-      "has_draft": true,
-      "category": "remote",
-      "visa_confidence": "inferred",
-      "agency_posted": false
-    },
-    {
-      "job_id": "JH-0052",
-      "company": "Stripe",
-      "role": "Technical Program Manager, Core Infrastructure",
-      "url": "https://stripe.com/jobs/search?gh_jid=7589234",
-      "composite": 88,
-      "coverage_pct": 33,
-      "missing_terms": [
-        "distributed systems",
-        "networking"
-      ],
-      "has_draft": true,
-      "category": "remote",
-      "visa_confidence": "inferred",
-      "agency_posted": false
-    },
-    {
-      "job_id": "JH-0053",
-      "company": "Stripe",
-      "role": "Technical Program Manager, Service Infrastructure",
-      "url": "https://stripe.com/jobs/search?gh_jid=7985196",
-      "composite": 87,
-      "coverage_pct": 33,
-      "missing_terms": [
-        "distributed systems",
-        "networking"
       ],
       "has_draft": true,
       "category": "remote",
