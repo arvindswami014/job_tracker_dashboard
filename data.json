@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-15T10:00:03.407575",
+  "generated_at": "2026-08-16T10:00:03.485318",
   "visa_deadline": "2026-12-01T00:00:00",
   "weekly_goal": 35,
   "applied_this_week": 0,
-  "cumulative_top25_count": 105,
+  "cumulative_top25_count": 106,
   "status_counts": {
-    "Discovered": 328,
+    "Discovered": 336,
     "Queued (agent)": 37,
     "Applied": 1
   },
@@ -17,7 +17,7 @@
     },
     {
       "name": "greenhouse",
-      "count": 1084,
+      "count": 1085,
       "errors": 0
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "name": "reed",
-      "count": 330,
+      "count": 326,
       "errors": 0
     },
     {
@@ -56,7 +56,7 @@
         "sponsorship: stated in JD",
         "level: manager",
         "role fit: tier1",
-        "posted: 3d old"
+        "posted: 4d old"
       ]
     },
     {
@@ -82,7 +82,7 @@
         "sponsorship: stated in JD",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 25d old"
+        "posted: 26d old"
       ]
     },
     {
@@ -103,7 +103,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 9d old"
+        "posted: 10d old"
       ]
     },
     {
@@ -124,7 +124,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier2",
-        "posted: 50d old"
+        "posted: 51d old"
       ]
     },
     {
@@ -147,7 +147,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 37d old"
+        "posted: 38d old"
       ]
     },
     {
@@ -245,7 +245,7 @@
         "sponsorship: agency-posted, JD claims sponsorship",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 28d old"
+        "posted: 29d old"
       ]
     },
     {
@@ -266,7 +266,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 3d old"
+        "posted: 4d old"
       ]
     },
     {
@@ -287,7 +287,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 3d old"
+        "posted: 4d old"
       ]
     },
     {
@@ -308,7 +308,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 2d old"
+        "posted: 3d old"
       ]
     },
     {
@@ -329,7 +329,28 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 2d old"
+        "posted: 3d old"
+      ]
+    },
+    {
+      "job_id": "JH-0417",
+      "company": "AJ Bell",
+      "role": "Senior Infrastructure Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5842890768?se=dL7vO1GZ8RGJftUyzQ0_4w&utm_medium=api&utm_source=1d9ce82d&v=99DBE5BD01338D7E935AC85FF093AEBF31996C9A",
+      "composite": 82,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false,
+      "interview_score": 90,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: senior",
+        "role fit: tier1",
+        "posted: 1d old"
       ]
     },
     {
@@ -350,7 +371,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 8d old"
+        "posted: 9d old"
       ]
     },
     {
@@ -371,7 +392,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 9d old"
+        "posted: 10d old"
       ]
     },
     {
@@ -392,7 +413,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 17d old"
+        "posted: 18d old"
       ]
     },
     {
@@ -413,7 +434,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 8d old"
+        "posted: 9d old"
       ]
     },
     {
@@ -434,7 +455,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 24d old"
+        "posted: 25d old"
       ]
     },
     {
@@ -455,7 +476,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 24d old"
+        "posted: 25d old"
       ]
     },
     {
@@ -476,7 +497,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 3d old"
+        "posted: 4d old"
       ]
     },
     {
@@ -497,7 +518,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 2d old"
+        "posted: 3d old"
       ]
     },
     {
@@ -518,7 +539,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 2d old"
+        "posted: 3d old"
       ]
     },
     {
@@ -539,7 +560,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 6d old"
+        "posted: 7d old"
       ]
     },
     {
@@ -560,28 +581,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 1d old"
-      ]
-    },
-    {
-      "job_id": "JH-0335",
-      "company": "Stripe",
-      "role": "Solutions Architect, Platforms",
-      "url": "https://stripe.com/jobs/search?gh_jid=7396509",
-      "composite": 83,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true,
-      "category": "inferred",
-      "visa_confidence": "inferred",
-      "agency_posted": false,
-      "interview_score": 88,
-      "score_reasons": [
-        "ATS match 100% (weighted)",
-        "sponsorship: register-inferred",
-        "level: mid (untitled)",
-        "role fit: tier1",
-        "posted: 5d old"
+        "posted: 2d old"
       ]
     }
   ],
@@ -591,7 +591,7 @@
       "company": "Apple",
       "role_title": "Site Reliability Engineer (SRE), Observability",
       "applied_date": "2026-07-19",
-      "days_since": 27
+      "days_since": 28
     }
   ]
 }
