@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-21T07:24:45.579269",
+  "generated_at": "2026-08-21T10:00:02.874907",
   "visa_deadline": "2026-12-01T00:00:00",
   "weekly_goal": 35,
   "applied_this_week": 0,
-  "cumulative_top25_count": 111,
+  "cumulative_top25_count": 112,
   "status_counts": {
-    "Discovered": 369,
+    "Discovered": 370,
     "Queued (agent)": 37,
     "Applied": 1
   },
@@ -17,7 +17,7 @@
     },
     {
       "name": "greenhouse",
-      "count": 1087,
+      "count": 1084,
       "errors": 0
     },
     {
@@ -37,27 +37,14 @@
     }
   ],
   "new_sponsors": [
-    "Be Selective Financial Services Limited",
-    "Dazzling Engineering Ltd",
-    "Dazzling Engineering Ltd",
-    "ECOTECH CONTRACTS LIMITED",
-    "ELVARIX TECH LTD",
-    "Faber Research and Technologies Limited",
-    "GSD Technologies Ltd",
-    "IFS GLOBAL MARKETING LIMITED T/A PROPERTY SOLUTIONS",
-    "Lunit UK Limited",
-    "MCCLOUD PROFESSIONAL SERVICES LTD",
-    "Mo-Sys Solutions Ltd",
-    "PJT Low Carbon TechnologyLtd",
-    "PMA Solutions Scotland Ltd",
-    "Quantum Data Energy Plc",
-    "Quantum UK Business Solutions Ltd",
-    "QUEBEC CONSULTANCY LIMITED",
-    "Strata Financial Services Consulting Ltd",
-    "The Care Staff Consulting Limited",
-    "The Haigh Engineering Co Ltd",
-    "Tradebridge Financial Technologies Limited",
-    "Tradebridge Financial Technologies Limited"
+    "Alton Aviation Consultancy UK Limited",
+    "Alton Aviation Consultancy UK Limited",
+    "Digital Odour Technologies Limited",
+    "ForInvest Technologies Ltd",
+    "RPK Technologies Ltd",
+    "The AI Whistleblower Initiative",
+    "Vanguard Tech Enterprise Ltd",
+    "Wolverton Solutions Limited"
   ],
   "top_jobs": [
     {
@@ -196,6 +183,27 @@
       "company": "VIQU IT Recruitment",
       "role": "Senior Site Reliability Engineer",
       "url": "https://www.adzuna.co.uk/jobs/land/ad/5849392945?se=FHcBWDWd8RGHSNKbYnvpdQ&utm_medium=api&utm_source=1d9ce82d&v=C77AECB945E591384D8962282E77DF43F02990E5",
+      "composite": 95,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "explicit",
+      "visa_confidence": "explicit",
+      "agency_posted": true,
+      "interview_score": 89,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: agency-posted, JD claims sponsorship",
+        "level: senior",
+        "role fit: tier1",
+        "posted: 1d old"
+      ]
+    },
+    {
+      "job_id": "JH-0452",
+      "company": "VIQU IT Recruitment",
+      "role": "Senior Site Reliability Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5849296645?se=FHX9DT-d8RGq7L6TRgUnJw&utm_medium=api&utm_source=1d9ce82d&v=9406D5B14ADD37CAD3E1A6EB794A36BF60565AFB",
       "composite": 95,
       "coverage_pct": 100,
       "missing_terms": [],
@@ -581,27 +589,6 @@
         "level: mid (untitled)",
         "role fit: tier1",
         "posted: 9d old"
-      ]
-    },
-    {
-      "job_id": "JH-0409",
-      "company": "TALENT INTERNATIONAL UK LTD",
-      "role": "DevOps Infrastructure Engineer",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5840658372?se=sJDsE4iY8RGqM9tlrK2FfQ&utm_medium=api&utm_source=1d9ce82d&v=E201546F8725825EA694DDC8A777468F8F666DF3",
-      "composite": 89,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true,
-      "category": "inferred",
-      "visa_confidence": "inferred",
-      "agency_posted": false,
-      "interview_score": 88,
-      "score_reasons": [
-        "ATS match 100% (weighted)",
-        "sponsorship: register-inferred",
-        "level: mid (untitled)",
-        "role fit: tier1",
-        "posted: 8d old"
       ]
     }
   ],
