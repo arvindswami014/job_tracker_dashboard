@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-23T07:47:31.904162",
+  "generated_at": "2026-09-23T10:00:03.002697",
   "visa_deadline": "2026-12-01T00:00:00",
   "weekly_goal": 35,
   "applied_this_week": 0,
-  "cumulative_top25_count": 150,
+  "cumulative_top25_count": 151,
   "status_counts": {
-    "Discovered": 590,
+    "Discovered": 600,
     "Queued (agent)": 37,
     "Applied": 1
   },
@@ -17,7 +17,7 @@
     },
     {
       "name": "greenhouse",
-      "count": 1200,
+      "count": 1202,
       "errors": 0
     },
     {
@@ -36,48 +36,7 @@
       "errors": 0
     }
   ],
-  "new_sponsors": [
-    "ABC PROJECT CONSULTANCY LTD",
-    "Alt Labs Agency Limited",
-    "BRAJ CARE SOLUTIONS LIMITED",
-    "CB Digital Marketing Ltd",
-    "Clear Solutions UK",
-    "Dama Tech Ltd. trading as Trustful hands",
-    "EFFICIENT SIGNS AND PRINT SOLUTIONS LTD",
-    "Electryone AI Limited",
-    "Energy and Systems Technical Ltd",
-    "FLEXTECH LONDON LTD",
-    "GROW ENGINEERING LTD",
-    "Hitech Construction Africa Limited",
-    "JG PROPERTIES SOLUTIONS LTD",
-    "KHAWAJATECH.LOCAL LIMITED",
-    "KIMAK SYSTEMS & DESIGN UK LIMITED",
-    "KIMAK SYSTEMS & DESIGN UK LIMITED",
-    "Kind Solutions Limited",
-    "LUFTHANSA TECHNIK LANDING GEAR SERVICES UK LIMITED",
-    "MCQUAID ENGINEERING LTD",
-    "MOBIHIVE LABS LTD",
-    "Neptune Digital Ltd",
-    "NSI INDUSTRIAL O&M SOLUTIONS LTD",
-    "NSI INDUSTRIAL O&M SOLUTIONS LTD",
-    "OPTIMUM MEDICAL SOLUTIONS LTD",
-    "Pharmarx Ltd t/a Cloud Pharmacy",
-    "Prestwick Aerosystems Limited",
-    "Rayd Technologies Limited",
-    "Richmond Defence Systems Limited",
-    "SAI Properties services Ltd",
-    "Sammy Labs ltd",
-    "SOLUX TECH LTD",
-    "TEEMORE ENGINEERING LIMITED",
-    "TLS SUPPLY CHAIN SOLUTIONS LIMITED",
-    "Track Engineering Construction Services Limited",
-    "TXO Systems Ltd",
-    "TXO Systems Ltd",
-    "URBAN CARE SYSTEMS LTD",
-    "USERTESTING TECHNOLOGIES LIMITED.",
-    "USERTESTING TECHNOLOGIES LIMITED.",
-    "Xantium Labs Limited"
-  ],
+  "new_sponsors": [],
   "top_jobs": [
     {
       "job_id": "JH-0453",
@@ -458,6 +417,27 @@
       ]
     },
     {
+      "job_id": "JH-0674",
+      "company": "Hackajob Ltd",
+      "role": "DevOps Senior Consultant",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5894917645?se=jlIQjC238RGv4q9XZ2bJfw&utm_medium=api&utm_source=1d9ce82d&v=2259DBBE30D12934FC0B94759AE15AB3A3256CF6",
+      "composite": 81,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false,
+      "interview_score": 90,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: senior",
+        "role fit: tier1",
+        "posted: 0d old"
+      ]
+    },
+    {
       "job_id": "JH-0620",
       "company": "Networking People  Limited",
       "role": "Senior Infrastructure Integration Engineer",
@@ -602,27 +582,6 @@
         "level: senior",
         "role fit: tier1",
         "posted: 28d old"
-      ]
-    },
-    {
-      "job_id": "JH-0653",
-      "company": "Aventum",
-      "role": "AI Native DevOps Platform Engineer",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5894338337?se=cjag9Ru38RG17I8Hj0wZow&utm_medium=api&utm_source=1d9ce82d&v=2CB32DEA0A5ACBFE2DF322C77F2060081BE88C20",
-      "composite": 88,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true,
-      "category": "inferred",
-      "visa_confidence": "inferred",
-      "agency_posted": false,
-      "interview_score": 88,
-      "score_reasons": [
-        "ATS match 100% (weighted)",
-        "sponsorship: register-inferred",
-        "level: mid (untitled)",
-        "role fit: tier1",
-        "posted: 1d old"
       ]
     }
   ],
