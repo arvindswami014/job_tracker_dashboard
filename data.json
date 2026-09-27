@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-23T10:00:03.002697",
+  "generated_at": "2026-09-27T18:04:56.249106",
   "visa_deadline": "2026-12-01T00:00:00",
   "weekly_goal": 35,
   "applied_this_week": 0,
-  "cumulative_top25_count": 151,
+  "cumulative_top25_count": 154,
   "status_counts": {
-    "Discovered": 600,
+    "Discovered": 631,
     "Queued (agent)": 37,
     "Applied": 1
   },
@@ -17,7 +17,7 @@
     },
     {
       "name": "greenhouse",
-      "count": 1202,
+      "count": 1221,
       "errors": 0
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "name": "reed",
-      "count": 311,
+      "count": 316,
       "errors": 0
     },
     {
@@ -36,7 +36,15 @@
       "errors": 0
     }
   ],
-  "new_sponsors": [],
+  "new_sponsors": [
+    "Econsultancy Limited",
+    "GB ELECTRICAL ENGINEERING LTD",
+    "Gigaton Technologies Ltd",
+    "INNERWORKS TECHNOLOGY LIMITED",
+    "Melli Bank Plc",
+    "Persia International Bank Plc",
+    "Persia International Bank Plc"
+  ],
   "top_jobs": [
     {
       "job_id": "JH-0453",
@@ -77,7 +85,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 9d old"
+        "posted: 13d old"
       ]
     },
     {
@@ -103,7 +111,7 @@
         "sponsorship: stated in JD",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 64d old (stale)"
+        "posted: 68d old (stale)"
       ]
     },
     {
@@ -124,7 +132,7 @@
         "sponsorship: stated in JD",
         "level: manager",
         "role fit: tier1",
-        "posted: 42d old"
+        "posted: 46d old"
       ]
     },
     {
@@ -145,7 +153,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 48d old"
+        "posted: 52d old"
       ]
     },
     {
@@ -168,7 +176,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 26d old"
+        "posted: 30d old"
       ]
     },
     {
@@ -266,7 +274,7 @@
         "sponsorship: agency-posted, JD claims sponsorship",
         "level: senior",
         "role fit: tier1",
-        "posted: 34d old"
+        "posted: 38d old"
       ]
     },
     {
@@ -287,7 +295,30 @@
         "sponsorship: agency-posted, JD claims sponsorship",
         "level: senior",
         "role fit: tier1",
-        "posted: 34d old"
+        "posted: 38d old"
+      ]
+    },
+    {
+      "job_id": "JH-0683",
+      "company": "Stripe",
+      "role": "People Operations Systems Administrator",
+      "url": "https://stripe.com/jobs/search?gh_jid=8227572",
+      "composite": 88,
+      "coverage_pct": 67,
+      "missing_terms": [
+        "self-service"
+      ],
+      "has_draft": true,
+      "category": "explicit",
+      "visa_confidence": "explicit",
+      "agency_posted": false,
+      "interview_score": 84,
+      "score_reasons": [
+        "ATS match 67% (weighted)",
+        "sponsorship: stated in JD",
+        "level: mid (untitled)",
+        "role fit: tier1",
+        "posted: 2d old"
       ]
     },
     {
@@ -308,49 +339,7 @@
         "sponsorship: agency-posted, JD claims sponsorship",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 67d old (stale)"
-      ]
-    },
-    {
-      "job_id": "JH-0634",
-      "company": "Barclays",
-      "role": "Senior Caching SRE",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5889019787?se=7ki28Ru38RGY1rDVmUSOcw&utm_medium=api&utm_source=1d9ce82d&v=E4C91C05E2171F2223A4A8557B4675D01276452A",
-      "composite": 88,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true,
-      "category": "inferred",
-      "visa_confidence": "inferred",
-      "agency_posted": false,
-      "interview_score": 90,
-      "score_reasons": [
-        "ATS match 100% (weighted)",
-        "sponsorship: register-inferred",
-        "level: senior",
-        "role fit: tier1",
-        "posted: 5d old"
-      ]
-    },
-    {
-      "job_id": "JH-0644",
-      "company": "Circle Group",
-      "role": "Senior DevOps Engineer - AWS - Manchester",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5888879434?se=zk-v8xu38RG17I8Hj0wZow&utm_medium=api&utm_source=1d9ce82d&v=31AC2BD02A78C9714CF9EF919FAB02E1D33188CE",
-      "composite": 88,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true,
-      "category": "inferred",
-      "visa_confidence": "inferred",
-      "agency_posted": false,
-      "interview_score": 90,
-      "score_reasons": [
-        "ATS match 100% (weighted)",
-        "sponsorship: register-inferred",
-        "level: senior",
-        "role fit: tier1",
-        "posted: 5d old"
+        "posted: 71d old (stale)"
       ]
     },
     {
@@ -371,7 +360,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 0d old"
+        "posted: 4d old"
       ]
     },
     {
@@ -392,7 +381,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 3d old"
+        "posted: 7d old"
       ]
     },
     {
@@ -413,7 +402,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 0d old"
+        "posted: 4d old"
       ]
     },
     {
@@ -434,14 +423,56 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 0d old"
+        "posted: 4d old"
       ]
     },
     {
-      "job_id": "JH-0620",
-      "company": "Networking People  Limited",
-      "role": "Senior Infrastructure Integration Engineer",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5876533610?se=4mMDACiv8RGw3foOHxJxCQ&utm_medium=api&utm_source=1d9ce82d&v=9BFDA17AB2951473B4CDE1E2E55E11EE209606C0",
+      "job_id": "JH-0695",
+      "company": "Hackajob Ltd",
+      "role": "Future Opportunity - DevOps Senior Consultant",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5898029953?se=SF8eNpe68RG1BYwIM61PHw&utm_medium=api&utm_source=1d9ce82d&v=D04507121CEC4A718BA81A2505EA738654CA1FCE",
+      "composite": 81,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false,
+      "interview_score": 90,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: senior",
+        "role fit: tier1",
+        "posted: 2d old"
+      ]
+    },
+    {
+      "job_id": "JH-0691",
+      "company": "Altium",
+      "role": "Senior Software Development Engineer (SRE)",
+      "url": "https://www.adzuna.co.uk/jobs/details/5890033860?utm_medium=api&utm_source=1d9ce82d",
+      "composite": 89,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false,
+      "interview_score": 89,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: senior",
+        "role fit: tier1",
+        "posted: 8d old"
+      ]
+    },
+    {
+      "job_id": "JH-0634",
+      "company": "Barclays",
+      "role": "Senior Caching SRE",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5889019787?se=7ki28Ru38RGY1rDVmUSOcw&utm_medium=api&utm_source=1d9ce82d&v=E4C91C05E2171F2223A4A8557B4675D01276452A",
       "composite": 88,
       "coverage_pct": 100,
       "missing_terms": [],
@@ -455,15 +486,15 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 14d old"
+        "posted: 9d old"
       ]
     },
     {
-      "job_id": "JH-0614",
-      "company": "Manpower",
-      "role": "Senior Infrastructure Engineer",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5880053040?se=4mMDACiv8RGw3foOHxJxCQ&utm_medium=api&utm_source=1d9ce82d&v=218C2E3C5DEF31FF2324DEECBAB711CBABF59F49",
-      "composite": 80,
+      "job_id": "JH-0644",
+      "company": "Circle Group",
+      "role": "Senior DevOps Engineer - AWS - Manchester",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5888879434?se=zk-v8xu38RG17I8Hj0wZow&utm_medium=api&utm_source=1d9ce82d&v=31AC2BD02A78C9714CF9EF919FAB02E1D33188CE",
+      "composite": 88,
       "coverage_pct": 100,
       "missing_terms": [],
       "has_draft": true,
@@ -476,7 +507,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 12d old"
+        "posted: 9d old"
       ]
     },
     {
@@ -497,7 +528,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 9d old"
+        "posted: 13d old"
       ]
     },
     {
@@ -518,7 +549,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 5d old"
+        "posted: 9d old"
       ]
     },
     {
@@ -539,7 +570,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 6d old"
+        "posted: 10d old"
       ]
     },
     {
@@ -560,28 +591,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 25d old"
-      ]
-    },
-    {
-      "job_id": "JH-0646",
-      "company": "Hackajob Ltd",
-      "role": "Senior Vice President, DevOps Production Services",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5856593425?se=zk-v8xu38RG17I8Hj0wZow&utm_medium=api&utm_source=1d9ce82d&v=7B7DDE9A244BA075A8137C04467C4CEA191FA825",
-      "composite": 89,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true,
-      "category": "inferred",
-      "visa_confidence": "inferred",
-      "agency_posted": false,
-      "interview_score": 88,
-      "score_reasons": [
-        "ATS match 100% (weighted)",
-        "sponsorship: register-inferred",
-        "level: senior",
-        "role fit: tier1",
-        "posted: 28d old"
+        "posted: 29d old"
       ]
     }
   ],
@@ -591,7 +601,7 @@
       "company": "Apple",
       "role_title": "Site Reliability Engineer (SRE), Observability",
       "applied_date": "2026-07-19",
-      "days_since": 66
+      "days_since": 70
     }
   ]
 }
