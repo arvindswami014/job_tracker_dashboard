@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-27T18:04:56.249106",
+  "generated_at": "2026-09-30T23:26:22.505073",
   "visa_deadline": "2026-12-01T00:00:00",
   "weekly_goal": 35,
   "applied_this_week": 0,
-  "cumulative_top25_count": 154,
+  "cumulative_top25_count": 157,
   "status_counts": {
-    "Discovered": 631,
+    "Discovered": 663,
     "Queued (agent)": 37,
-    "Applied": 1
+    "Applied": 2
   },
   "source_summary": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "name": "greenhouse",
-      "count": 1221,
+      "count": 1220,
       "errors": 0
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "name": "reed",
-      "count": 316,
+      "count": 321,
       "errors": 0
     },
     {
@@ -37,13 +37,12 @@
     }
   ],
   "new_sponsors": [
-    "Econsultancy Limited",
-    "GB ELECTRICAL ENGINEERING LTD",
-    "Gigaton Technologies Ltd",
-    "INNERWORKS TECHNOLOGY LIMITED",
-    "Melli Bank Plc",
-    "Persia International Bank Plc",
-    "Persia International Bank Plc"
+    "EMERALD CARE SOLUTIONS LTD",
+    "FINDABLE.AI LIMITED",
+    "FINDABLE.AI LIMITED",
+    "Fresh Graphic Solutions Limited",
+    "Safran Actuation Systems UK Limited",
+    "SOITS TECH LTD"
   ],
   "top_jobs": [
     {
@@ -79,13 +78,13 @@
       "category": "remote",
       "visa_confidence": "inferred",
       "agency_posted": false,
-      "interview_score": 88,
+      "interview_score": 87,
       "score_reasons": [
         "ATS match 100% (weighted)",
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 13d old"
+        "posted: 16d old"
       ]
     },
     {
@@ -111,7 +110,7 @@
         "sponsorship: stated in JD",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 68d old (stale)"
+        "posted: 71d old (stale)"
       ]
     },
     {
@@ -132,7 +131,7 @@
         "sponsorship: stated in JD",
         "level: manager",
         "role fit: tier1",
-        "posted: 46d old"
+        "posted: 49d old"
       ]
     },
     {
@@ -153,30 +152,28 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 52d old"
+        "posted: 55d old"
       ]
     },
     {
-      "job_id": "JH-0497",
-      "company": "Flexport",
-      "role": "Senior Systems Engineer (Identity and Access)",
-      "url": "https://www.themuse.com/jobs/flexport/senior-systems-engineer-identity-and-access-b3e5e6",
-      "composite": 81,
-      "coverage_pct": 83,
-      "missing_terms": [
-        "bash"
-      ],
+      "job_id": "JH-0419",
+      "company": "Stripe",
+      "role": "Backend Engineer, Payments",
+      "url": "https://stripe.com/jobs/search?gh_jid=6692166",
+      "composite": 89,
+      "coverage_pct": 100,
+      "missing_terms": [],
       "has_draft": true,
       "category": "remote",
       "visa_confidence": "inferred",
       "agency_posted": false,
-      "interview_score": 83,
+      "interview_score": 82,
       "score_reasons": [
-        "ATS match 89% (weighted)",
+        "ATS match 100% (weighted)",
         "sponsorship: register-inferred",
-        "level: senior",
-        "role fit: tier1",
-        "posted: 30d old"
+        "level: mid (untitled)",
+        "role fit: tier2",
+        "posted: 43d old"
       ]
     },
     {
@@ -198,6 +195,29 @@
         "level: mid (untitled)",
         "role fit: tier1",
         "posted: unknown age"
+      ]
+    },
+    {
+      "job_id": "JH-0715",
+      "company": "Stripe",
+      "role": "Global People Operations - Systems Administrator",
+      "url": "https://stripe.com/jobs/search?gh_jid=8227570",
+      "composite": 87,
+      "coverage_pct": 75,
+      "missing_terms": [
+        "self-service"
+      ],
+      "has_draft": true,
+      "category": "explicit",
+      "visa_confidence": "explicit",
+      "agency_posted": false,
+      "interview_score": 90,
+      "score_reasons": [
+        "ATS match 80% (weighted)",
+        "sponsorship: stated in JD",
+        "level: mid (untitled)",
+        "role fit: tier1",
+        "posted: 1d old"
       ]
     },
     {
@@ -274,7 +294,7 @@
         "sponsorship: agency-posted, JD claims sponsorship",
         "level: senior",
         "role fit: tier1",
-        "posted: 38d old"
+        "posted: 41d old"
       ]
     },
     {
@@ -295,7 +315,7 @@
         "sponsorship: agency-posted, JD claims sponsorship",
         "level: senior",
         "role fit: tier1",
-        "posted: 38d old"
+        "posted: 41d old"
       ]
     },
     {
@@ -318,7 +338,7 @@
         "sponsorship: stated in JD",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 2d old"
+        "posted: 5d old"
       ]
     },
     {
@@ -339,7 +359,7 @@
         "sponsorship: agency-posted, JD claims sponsorship",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 71d old (stale)"
+        "posted: 74d old (stale)"
       ]
     },
     {
@@ -348,27 +368,6 @@
       "role": "Senior Infrastructure Engineer",
       "url": "https://www.adzuna.co.uk/jobs/land/ad/5894737504?se=dIx2-Ru38RG6-LerT6N-jw&utm_medium=api&utm_source=1d9ce82d&v=2629BA6097427D307D188764EBE16D0B1E34BBE6",
       "composite": 86,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true,
-      "category": "inferred",
-      "visa_confidence": "inferred",
-      "agency_posted": false,
-      "interview_score": 90,
-      "score_reasons": [
-        "ATS match 100% (weighted)",
-        "sponsorship: register-inferred",
-        "level: senior",
-        "role fit: tier1",
-        "posted: 4d old"
-      ]
-    },
-    {
-      "job_id": "JH-0640",
-      "company": "FDM Group",
-      "role": "Senior Devops Engineer",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5891689617?se=zk-v8xu38RG17I8Hj0wZow&utm_medium=api&utm_source=1d9ce82d&v=CCAF864239C30C5FCAD9355A5CEF17B2DB69F524",
-      "composite": 85,
       "coverage_pct": 100,
       "missing_terms": [],
       "has_draft": true,
@@ -402,7 +401,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 4d old"
+        "posted: 7d old"
       ]
     },
     {
@@ -423,7 +422,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 4d old"
+        "posted: 7d old"
       ]
     },
     {
@@ -444,7 +443,28 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 2d old"
+        "posted: 5d old"
+      ]
+    },
+    {
+      "job_id": "JH-0725",
+      "company": "Hackajob Ltd",
+      "role": "DevOps Senior Consultant",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5896508925?se=zFy69x698RGwgaviw0YlUg&utm_medium=api&utm_source=1d9ce82d&v=467A77279C0D6F858F2C50755313E47742038802",
+      "composite": 81,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false,
+      "interview_score": 90,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: senior",
+        "role fit: tier1",
+        "posted: 6d old"
       ]
     },
     {
@@ -465,7 +485,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 8d old"
+        "posted: 11d old"
       ]
     },
     {
@@ -486,7 +506,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 9d old"
+        "posted: 12d old"
       ]
     },
     {
@@ -507,15 +527,15 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 9d old"
+        "posted: 12d old"
       ]
     },
     {
-      "job_id": "JH-0632",
-      "company": "Hackajob Ltd",
-      "role": "Senior Manager of SRE",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5883457519?se=7ki28Ru38RGY1rDVmUSOcw&utm_medium=api&utm_source=1d9ce82d&v=25AFF47588FC32B09848436855439E1A98A57B55",
-      "composite": 79,
+      "job_id": "JH-0726",
+      "company": "Circle Group",
+      "role": "Senior DevOps Engineer - AWS - Manchester",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5885764843?se=zFy69x698RGwgaviw0YlUg&utm_medium=api&utm_source=1d9ce82d&v=A9A5FED03C162D459646473DC78ADC3C58AC1585",
+      "composite": 88,
       "coverage_pct": 100,
       "missing_terms": [],
       "has_draft": true,
@@ -528,7 +548,28 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 13d old"
+        "posted: 14d old"
+      ]
+    },
+    {
+      "job_id": "JH-0640",
+      "company": "FDM Group",
+      "role": "Senior Devops Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5891689617?se=zk-v8xu38RG17I8Hj0wZow&utm_medium=api&utm_source=1d9ce82d&v=CCAF864239C30C5FCAD9355A5CEF17B2DB69F524",
+      "composite": 85,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false,
+      "interview_score": 89,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: senior",
+        "role fit: tier1",
+        "posted: 10d old"
       ]
     },
     {
@@ -549,49 +590,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 9d old"
-      ]
-    },
-    {
-      "job_id": "JH-0671",
-      "company": "VIQU Limited",
-      "role": "Infrastructure Engineer",
-      "url": "https://www.adzuna.co.uk/jobs/details/5888160293?utm_medium=api&utm_source=1d9ce82d",
-      "composite": 92,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true,
-      "category": "inferred",
-      "visa_confidence": "inferred",
-      "agency_posted": false,
-      "interview_score": 88,
-      "score_reasons": [
-        "ATS match 100% (weighted)",
-        "sponsorship: register-inferred",
-        "level: mid (untitled)",
-        "role fit: tier1",
-        "posted: 10d old"
-      ]
-    },
-    {
-      "job_id": "JH-0591",
-      "company": "Hackajob Ltd",
-      "role": "Senior Vice President, DevOps Production Services",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5861078953?se=RE0-9yev8RGhe8--YZ_w9w&utm_medium=api&utm_source=1d9ce82d&v=C1F6393D917C2A7AE08EF2C3D8B9B4D4CDD81E3D",
-      "composite": 89,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true,
-      "category": "inferred",
-      "visa_confidence": "inferred",
-      "agency_posted": false,
-      "interview_score": 88,
-      "score_reasons": [
-        "ATS match 100% (weighted)",
-        "sponsorship: register-inferred",
-        "level: senior",
-        "role fit: tier1",
-        "posted: 29d old"
+        "posted: 12d old"
       ]
     }
   ],
@@ -601,7 +600,7 @@
       "company": "Apple",
       "role_title": "Site Reliability Engineer (SRE), Observability",
       "applied_date": "2026-07-19",
-      "days_since": 70
+      "days_since": 73
     }
   ]
 }
