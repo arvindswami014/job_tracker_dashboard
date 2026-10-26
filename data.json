@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-23T05:00:02.941286",
+  "generated_at": "2026-10-26T10:00:03.290306",
   "visa_deadline": "2026-12-01T00:00:00",
   "weekly_goal": 35,
   "applied_this_week": 0,
-  "cumulative_top25_count": 184,
+  "cumulative_top25_count": 186,
   "status_counts": {
-    "Discovered": 816,
+    "Discovered": 828,
     "Queued (agent)": 37,
     "Applied": 2
   },
@@ -17,7 +17,7 @@
     },
     {
       "name": "greenhouse",
-      "count": 1242,
+      "count": 1220,
       "errors": 0
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "name": "reed",
-      "count": 334,
+      "count": 332,
       "errors": 0
     },
     {
@@ -37,23 +37,9 @@
     }
   ],
   "new_sponsors": [
-    "AFT Consulting Ltd",
-    "AHAD TECHNOLOGIES LIMITED",
-    "ALWAYSSMILE MEDTECH LTD",
-    "ARTEMIS SUPPORT SOLUTIONS LTD",
-    "Dr Punit Sitaram Shivhare",
-    "Ericsson Enterprise Wireless Solutions UK Ltd",
-    "Innova Consultancy Limited",
-    "Lifeserve Solutions Limited",
-    "MAVEN ENGINEERING LTD",
-    "Much. Consulting Ltd",
-    "Much. Consulting Ltd",
-    "Number Seven Solutions Limited",
-    "PEOPLE, SYSTEMS AND PROCESS (PSP) LTD",
-    "Perenna Bank PLC",
-    "Platform Childcare",
-    "The Digital Age Ltd",
-    "TUV Rheinland Solutions Limited"
+    "4YOU Solutions Limited",
+    "ADROIT AI LABS LTD",
+    "Chenai Holistic Home Care Agency Ltd"
   ],
   "top_jobs": [
     {
@@ -95,7 +81,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 16d old"
+        "posted: 19d old"
       ]
     },
     {
@@ -121,7 +107,7 @@
         "sponsorship: stated in JD",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 94d old (stale)"
+        "posted: 97d old (stale)"
       ]
     },
     {
@@ -142,7 +128,7 @@
         "sponsorship: stated in JD",
         "level: manager",
         "role fit: tier1",
-        "posted: 72d old (stale)"
+        "posted: 75d old (stale)"
       ]
     },
     {
@@ -163,7 +149,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 39d old"
+        "posted: 42d old"
       ]
     },
     {
@@ -184,7 +170,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 78d old (stale)"
+        "posted: 81d old (stale)"
       ]
     },
     {
@@ -199,13 +185,13 @@
       "category": "explicit",
       "visa_confidence": "explicit",
       "agency_posted": false,
-      "interview_score": 100,
+      "interview_score": 99,
       "score_reasons": [
         "ATS match 100% (weighted)",
         "sponsorship: stated in JD",
         "level: senior",
         "role fit: tier1",
-        "posted: 6d old"
+        "posted: 9d old"
       ]
     },
     {
@@ -352,7 +338,7 @@
         "sponsorship: stated in JD",
         "level: senior",
         "role fit: tier1",
-        "posted: 23d old"
+        "posted: 26d old"
       ]
     },
     {
@@ -375,7 +361,7 @@
         "sponsorship: stated in JD",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 24d old"
+        "posted: 27d old"
       ]
     },
     {
@@ -435,11 +421,11 @@
       ]
     },
     {
-      "job_id": "JH-0825",
-      "company": "IG Group",
-      "role": "Senior Platform SRE",
-      "url": "https://www.adzuna.co.uk/jobs/details/5930286401?utm_medium=api&utm_source=1d9ce82d",
-      "composite": 87,
+      "job_id": "JH-0903",
+      "company": "Microlise",
+      "role": "Senior DevOps Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5939830323?se=eOY4MyXR8RGOYfWuCF2d0w&utm_medium=api&utm_source=1d9ce82d&v=E6A5ECACD1B7AD268617BE5FDD240A7EA7B43586",
+      "composite": 88,
       "coverage_pct": 100,
       "missing_terms": [],
       "has_draft": true,
@@ -452,7 +438,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 7d old"
+        "posted: 2d old"
       ]
     },
     {
@@ -473,15 +459,15 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 3d old"
+        "posted: 6d old"
       ]
     },
     {
-      "job_id": "JH-0847",
-      "company": "Wise",
-      "role": "Senior ML Platform Engineer - Financial Crime",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5933366108?se=jig92ZvL8RG24sFXRjB2eg&utm_medium=api&utm_source=1d9ce82d&v=1B56B6364A2ACC96E6AB11403DD1188C5F467B8F",
-      "composite": 83,
+      "job_id": "JH-0910",
+      "company": "Infosec",
+      "role": "Senior Infrastructure Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5941749742?se=GKh9NyXR8RGjD_8hTDo2ZA&utm_medium=api&utm_source=1d9ce82d&v=498F8013562D3756051DD1A98442C0E6101C3B70",
+      "composite": 84,
       "coverage_pct": 100,
       "missing_terms": [],
       "has_draft": true,
@@ -494,7 +480,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 5d old"
+        "posted: 1d old"
       ]
     },
     {
@@ -515,7 +501,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 2d old"
+        "posted: 5d old"
       ]
     },
     {
@@ -536,7 +522,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 1d old"
+        "posted: 4d old"
       ]
     },
     {
@@ -557,7 +543,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 2d old"
+        "posted: 5d old"
       ]
     },
     {
@@ -578,7 +564,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 1d old"
+        "posted: 4d old"
       ]
     },
     {
@@ -599,7 +585,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 2d old"
+        "posted: 5d old"
       ]
     },
     {
@@ -620,7 +606,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 8d old"
+        "posted: 11d old"
       ]
     }
   ],
@@ -630,7 +616,7 @@
       "company": "Apple",
       "role_title": "Site Reliability Engineer (SRE), Observability",
       "applied_date": "2026-07-19",
-      "days_since": 96
+      "days_since": 99
     }
   ]
 }
