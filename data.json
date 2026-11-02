@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-26T10:00:03.290306",
+  "generated_at": "2026-11-02T05:00:03.023736",
   "visa_deadline": "2026-12-01T00:00:00",
   "weekly_goal": 35,
   "applied_this_week": 0,
-  "cumulative_top25_count": 186,
+  "cumulative_top25_count": 190,
   "status_counts": {
-    "Discovered": 828,
+    "Discovered": 849,
     "Queued (agent)": 37,
     "Applied": 2
   },
@@ -17,7 +17,7 @@
     },
     {
       "name": "greenhouse",
-      "count": 1220,
+      "count": 1206,
       "errors": 0
     },
     {
@@ -27,19 +27,42 @@
     },
     {
       "name": "reed",
-      "count": 332,
+      "count": 322,
       "errors": 0
     },
     {
       "name": "adzuna",
-      "count": 400,
-      "errors": 0
+      "count": 250,
+      "errors": 3
     }
   ],
   "new_sponsors": [
-    "4YOU Solutions Limited",
-    "ADROIT AI LABS LTD",
-    "Chenai Holistic Home Care Agency Ltd"
+    "Beagle Technology Group Limited",
+    "Bright Consulting Partners Ltd",
+    "CB&I Asset Solutions Limited",
+    "CB&I Asset Solutions Limited",
+    "COGNITECH SERVICES LIMITED",
+    "Dragonfly Technology Ltd",
+    "DTB BIOTECHNOLOGY LTD",
+    "Empowering Technologies Ltd",
+    "Enquip Software Limited",
+    "Grant Digital Ltd",
+    "Mark It Fresh Limited",
+    "MSK TITAN SOLUTIONS LTD",
+    "Nash Delivery Technologies UK Limited",
+    "Nash Delivery Technologies UK Limited",
+    "OPTO-E TECH LIMITED",
+    "Quality Technology Services (UK) Ltd",
+    "Quality Technology Services (UK) Ltd",
+    "Quantum Six Consulting Limited",
+    "SEAL SOLUTIONS LIMITED",
+    "TJM Consultancy NW Ltd",
+    "Tooth Solutions Limited T/A Happy Smiles Dental",
+    "Transave Credit Union Limited",
+    "Tundra Technical Solutions UK Limited",
+    "Tundra Technical Solutions UK Limited",
+    "Verda Cloud UK Ltd",
+    "Verda Cloud UK Ltd"
   ],
   "top_jobs": [
     {
@@ -61,27 +84,6 @@
         "level: mid (untitled)",
         "role fit: other",
         "posted: unknown age"
-      ]
-    },
-    {
-      "job_id": "JH-0802",
-      "company": "Stripe",
-      "role": "Backend Engineer, Developer & End-user Experience Platform",
-      "url": "https://stripe.com/jobs/search?gh_jid=7292520",
-      "composite": 90,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true,
-      "category": "remote",
-      "visa_confidence": "inferred",
-      "agency_posted": false,
-      "interview_score": 87,
-      "score_reasons": [
-        "ATS match 100% (weighted)",
-        "sponsorship: register-inferred",
-        "level: mid (untitled)",
-        "role fit: tier1",
-        "posted: 19d old"
       ]
     },
     {
@@ -107,7 +109,28 @@
         "sponsorship: stated in JD",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 97d old (stale)"
+        "posted: 104d old (stale)"
+      ]
+    },
+    {
+      "job_id": "JH-0802",
+      "company": "Stripe",
+      "role": "Backend Engineer, Developer & End-user Experience Platform",
+      "url": "https://stripe.com/jobs/search?gh_jid=7292520",
+      "composite": 90,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "remote",
+      "visa_confidence": "inferred",
+      "agency_posted": false,
+      "interview_score": 86,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: mid (untitled)",
+        "role fit: tier1",
+        "posted: 26d old"
       ]
     },
     {
@@ -128,7 +151,7 @@
         "sponsorship: stated in JD",
         "level: manager",
         "role fit: tier1",
-        "posted: 75d old (stale)"
+        "posted: 82d old (stale)"
       ]
     },
     {
@@ -149,7 +172,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 42d old"
+        "posted: 49d old"
       ]
     },
     {
@@ -170,7 +193,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 81d old (stale)"
+        "posted: 88d old (stale)"
       ]
     },
     {
@@ -185,13 +208,13 @@
       "category": "explicit",
       "visa_confidence": "explicit",
       "agency_posted": false,
-      "interview_score": 99,
+      "interview_score": 98,
       "score_reasons": [
         "ATS match 100% (weighted)",
         "sponsorship: stated in JD",
         "level: senior",
         "role fit: tier1",
-        "posted: 9d old"
+        "posted: 16d old"
       ]
     },
     {
@@ -318,6 +341,71 @@
       ]
     },
     {
+      "job_id": "JH-0927",
+      "company": "Nextech Group Limited",
+      "role": "Senior Platform Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5911401897?se=zOoaqHrW8RGzkfY_QG7FnA&utm_medium=api&utm_source=1d9ce82d&v=ABD4E0E926FF0F32148B65F489744BECCC1F342E",
+      "composite": 93,
+      "coverage_pct": 80,
+      "missing_terms": [
+        "developer platform"
+      ],
+      "has_draft": true,
+      "category": "explicit",
+      "visa_confidence": "explicit",
+      "agency_posted": false,
+      "interview_score": 91,
+      "score_reasons": [
+        "ATS match 86% (weighted)",
+        "sponsorship: stated in JD",
+        "level: senior",
+        "role fit: tier1",
+        "posted: 29d old"
+      ]
+    },
+    {
+      "job_id": "JH-0915",
+      "company": "Tenth Revolution Group",
+      "role": "Lead Data Engineer",
+      "url": "https://www.reed.co.uk/jobs/lead-data-engineer/57499978",
+      "composite": 87,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "explicit",
+      "visa_confidence": "explicit",
+      "agency_posted": false,
+      "interview_score": 90,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: stated in JD",
+        "level: lead",
+        "role fit: tier2",
+        "posted: unknown age"
+      ]
+    },
+    {
+      "job_id": "JH-0917",
+      "company": "Tenth Revolution Group",
+      "role": "Lead Data Engineer",
+      "url": "https://www.reed.co.uk/jobs/lead-data-engineer/57499978",
+      "composite": 87,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "explicit",
+      "visa_confidence": "explicit",
+      "agency_posted": false,
+      "interview_score": 90,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: stated in JD",
+        "level: lead",
+        "role fit: tier2",
+        "posted: unknown age"
+      ]
+    },
+    {
       "job_id": "JH-0767",
       "company": "Nextech Group Limited",
       "role": "Senior Platform Engineer",
@@ -338,86 +426,28 @@
         "sponsorship: stated in JD",
         "level: senior",
         "role fit: tier1",
-        "posted: 26d old"
+        "posted: 33d old"
       ]
     },
     {
-      "job_id": "JH-0715",
-      "company": "Stripe",
-      "role": "Global People Operations - Systems Administrator",
-      "url": "https://stripe.com/jobs/search?gh_jid=8227570",
-      "composite": 87,
-      "coverage_pct": 75,
-      "missing_terms": [
-        "self-service"
-      ],
+      "job_id": "JH-0930",
+      "company": "Outsource",
+      "role": "V06429 Senior Infrastructure Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5945723200?se=DEpKrHrW8RGRQOLR_vdAhg&utm_medium=api&utm_source=1d9ce82d&v=F5B99D674D0821ED10A1E2AB4286392CC2E6BA22",
+      "composite": 78,
+      "coverage_pct": 100,
+      "missing_terms": [],
       "has_draft": true,
-      "category": "explicit",
-      "visa_confidence": "explicit",
+      "category": "inferred",
+      "visa_confidence": "inferred",
       "agency_posted": false,
-      "interview_score": 87,
+      "interview_score": 90,
       "score_reasons": [
-        "ATS match 80% (weighted)",
-        "sponsorship: stated in JD",
-        "level: mid (untitled)",
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: senior",
         "role fit: tier1",
-        "posted: 27d old"
-      ]
-    },
-    {
-      "job_id": "JH-0280",
-      "company": "Profile 29",
-      "role": "Platform Engineer",
-      "url": "https://www.reed.co.uk/jobs/platform-engineer/57145603",
-      "composite": 105,
-      "coverage_pct": 75,
-      "missing_terms": [
-        "bash",
-        "gcp",
-        "golang",
-        "infrastructure as code",
-        "logging",
-        "self-service"
-      ],
-      "has_draft": true,
-      "category": "explicit",
-      "visa_confidence": "explicit",
-      "agency_posted": false,
-      "interview_score": 86,
-      "score_reasons": [
-        "ATS match 76% (weighted)",
-        "sponsorship: stated in JD",
-        "level: mid (untitled)",
-        "role fit: tier1",
-        "posted: unknown age"
-      ]
-    },
-    {
-      "job_id": "JH-0281",
-      "company": "Profile 29",
-      "role": "Platform Engineer",
-      "url": "https://www.reed.co.uk/jobs/platform-engineer/57145603",
-      "composite": 105,
-      "coverage_pct": 75,
-      "missing_terms": [
-        "bash",
-        "gcp",
-        "golang",
-        "infrastructure as code",
-        "logging",
-        "self-service"
-      ],
-      "has_draft": true,
-      "category": "explicit",
-      "visa_confidence": "explicit",
-      "agency_posted": false,
-      "interview_score": 86,
-      "score_reasons": [
-        "ATS match 76% (weighted)",
-        "sponsorship: stated in JD",
-        "level: mid (untitled)",
-        "role fit: tier1",
-        "posted: unknown age"
+        "posted: 4d old"
       ]
     },
     {
@@ -432,13 +462,13 @@
       "category": "inferred",
       "visa_confidence": "inferred",
       "agency_posted": false,
-      "interview_score": 90,
+      "interview_score": 89,
       "score_reasons": [
         "ATS match 100% (weighted)",
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 2d old"
+        "posted: 9d old"
       ]
     },
     {
@@ -453,13 +483,13 @@
       "category": "inferred",
       "visa_confidence": "inferred",
       "agency_posted": false,
-      "interview_score": 90,
+      "interview_score": 89,
       "score_reasons": [
         "ATS match 100% (weighted)",
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 6d old"
+        "posted: 13d old"
       ]
     },
     {
@@ -474,13 +504,13 @@
       "category": "inferred",
       "visa_confidence": "inferred",
       "agency_posted": false,
-      "interview_score": 90,
+      "interview_score": 89,
       "score_reasons": [
         "ATS match 100% (weighted)",
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 1d old"
+        "posted: 8d old"
       ]
     },
     {
@@ -495,13 +525,13 @@
       "category": "inferred",
       "visa_confidence": "inferred",
       "agency_posted": false,
-      "interview_score": 90,
+      "interview_score": 89,
       "score_reasons": [
         "ATS match 100% (weighted)",
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 5d old"
+        "posted: 12d old"
       ]
     },
     {
@@ -516,13 +546,13 @@
       "category": "inferred",
       "visa_confidence": "inferred",
       "agency_posted": false,
-      "interview_score": 90,
+      "interview_score": 89,
       "score_reasons": [
         "ATS match 100% (weighted)",
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 4d old"
+        "posted: 11d old"
       ]
     },
     {
@@ -537,13 +567,13 @@
       "category": "inferred",
       "visa_confidence": "inferred",
       "agency_posted": false,
-      "interview_score": 90,
+      "interview_score": 89,
       "score_reasons": [
         "ATS match 100% (weighted)",
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 5d old"
+        "posted: 12d old"
       ]
     },
     {
@@ -558,13 +588,13 @@
       "category": "inferred",
       "visa_confidence": "inferred",
       "agency_posted": false,
-      "interview_score": 90,
+      "interview_score": 89,
       "score_reasons": [
         "ATS match 100% (weighted)",
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 4d old"
+        "posted: 11d old"
       ]
     },
     {
@@ -579,34 +609,13 @@
       "category": "inferred",
       "visa_confidence": "inferred",
       "agency_posted": false,
-      "interview_score": 90,
-      "score_reasons": [
-        "ATS match 100% (weighted)",
-        "sponsorship: register-inferred",
-        "level: senior",
-        "role fit: tier1",
-        "posted: 5d old"
-      ]
-    },
-    {
-      "job_id": "JH-0812",
-      "company": "Datadog",
-      "role": "Senior Network Engineer, Office Technology",
-      "url": "https://careers.datadoghq.com/detail/8267561/?gh_jid=8267561",
-      "composite": 96,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true,
-      "category": "inferred",
-      "visa_confidence": "inferred",
-      "agency_posted": false,
       "interview_score": 89,
       "score_reasons": [
         "ATS match 100% (weighted)",
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 11d old"
+        "posted: 12d old"
       ]
     }
   ],
@@ -616,7 +625,7 @@
       "company": "Apple",
       "role_title": "Site Reliability Engineer (SRE), Observability",
       "applied_date": "2026-07-19",
-      "days_since": 99
+      "days_since": 106
     }
   ]
 }
