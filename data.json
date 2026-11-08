@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-08T07:10:26.658868",
+  "generated_at": "2026-11-08T10:00:02.786944",
   "visa_deadline": "2026-12-01T00:00:00",
   "weekly_goal": 35,
   "applied_this_week": 0,
   "cumulative_top25_count": 193,
   "status_counts": {
-    "Discovered": 876,
+    "Discovered": 877,
     "Queued (agent)": 37,
     "Applied": 2
   },
@@ -36,36 +36,7 @@
       "errors": 0
     }
   ],
-  "new_sponsors": [
-    "2nd Wind IT Limited",
-    "2nd Wind IT Limited",
-    "Airmen Technical Services",
-    "Alpha Systems Fabrication Limited",
-    "Blue Pixel Solutions Ltd",
-    "Caintech Ltd",
-    "City House Platform Ltd",
-    "COUNSEL UNIVERSE SOLUTIONS LTD",
-    "CRYSTAL NET SOLUTIONS LTD",
-    "DOLPHIN CIVIL ENGINEERING LTD",
-    "Dynamic Technologies Europe Ltd",
-    "GROPATH EDUCATION CONSULTING LTD",
-    "Gully Howard Technical Ltd",
-    "High Technology Sources Limited",
-    "Innov8 Technology Ltd",
-    "Intechnica Limited",
-    "K B Tech Limited",
-    "LAYSTALL ENGINEERING COMPANY LIMITED",
-    "New Sri Kumaran Textiles Ltd T/A Chennai Silks",
-    "Niche Science and Technology",
-    "Northcott Global Solutions Limited",
-    "Oshkosh Aerotech UK Ltd",
-    "PAM CONSULTING SERVICES LTD",
-    "SAPIENAI LIMITED",
-    "Solutions Makers Ltd",
-    "SPEED FINANCIAL SERVICES LIMITED",
-    "Suregro Technology Ltd T/A Conqr AI",
-    "TRUSTPRO CONSULTING LTD"
-  ],
+  "new_sponsors": [],
   "top_jobs": [
     {
       "job_id": "JH-0453",
