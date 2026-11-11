@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-08T10:00:02.786944",
+  "generated_at": "2026-11-11T12:25:09.502000",
   "visa_deadline": "2026-12-01T00:00:00",
   "weekly_goal": 35,
   "applied_this_week": 0,
-  "cumulative_top25_count": 193,
+  "cumulative_top25_count": 196,
   "status_counts": {
-    "Discovered": 877,
+    "Discovered": 900,
     "Queued (agent)": 37,
     "Applied": 2
   },
@@ -17,7 +17,7 @@
     },
     {
       "name": "greenhouse",
-      "count": 1225,
+      "count": 1235,
       "errors": 0
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "name": "reed",
-      "count": 328,
+      "count": 323,
       "errors": 0
     },
     {
@@ -36,7 +36,19 @@
       "errors": 0
     }
   ],
-  "new_sponsors": [],
+  "new_sponsors": [
+    "ADAMO TECHNOLOGIES LTD",
+    "Allos AI Limited",
+    "Androlabs UK Ltd",
+    "BLUEBRIDGE TECHNOLOGY LTD (17155688)",
+    "CASECRAFT.AI LTD",
+    "Geosphere Enterprise Software Ltd",
+    "Humanis AI Ltd",
+    "Intelligent Media Technology Ltd",
+    "M N Pulse Solutions Ltd",
+    "Mind over Matter Medtech Ltd",
+    "MULFAB ENGINEERING LTD"
+  ],
   "top_jobs": [
     {
       "job_id": "JH-0453",
@@ -82,7 +94,7 @@
         "sponsorship: stated in JD",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 110d old (stale)"
+        "posted: 113d old (stale)"
       ]
     },
     {
@@ -103,7 +115,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 32d old"
+        "posted: 35d old"
       ]
     },
     {
@@ -124,7 +136,7 @@
         "sponsorship: stated in JD",
         "level: manager",
         "role fit: tier1",
-        "posted: 88d old (stale)"
+        "posted: 91d old (stale)"
       ]
     },
     {
@@ -145,7 +157,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 55d old"
+        "posted: 58d old"
       ]
     },
     {
@@ -166,7 +178,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 94d old (stale)"
+        "posted: 97d old (stale)"
       ]
     },
     {
@@ -187,7 +199,7 @@
         "sponsorship: stated in JD",
         "level: senior",
         "role fit: tier1",
-        "posted: 22d old"
+        "posted: 25d old"
       ]
     },
     {
@@ -375,7 +387,7 @@
         "sponsorship: stated in JD",
         "level: senior",
         "role fit: tier1",
-        "posted: 35d old"
+        "posted: 38d old"
       ]
     },
     {
@@ -399,7 +411,28 @@
         "sponsorship: stated in JD",
         "level: senior",
         "role fit: tier1",
-        "posted: 39d old"
+        "posted: 42d old"
+      ]
+    },
+    {
+      "job_id": "JH-0973",
+      "company": "Zopa Bank",
+      "role": "Senior Platform Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5959193106?se=8LeLYcvd8RGXhdcCTZvjAw&utm_medium=api&utm_source=1d9ce82d&v=4A16ED1210118FEA3DB28190037524D1647A0BFF",
+      "composite": 83,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false,
+      "interview_score": 90,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: senior",
+        "role fit: tier1",
+        "posted: 2d old"
       ]
     },
     {
@@ -420,28 +453,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 8d old"
-      ]
-    },
-    {
-      "job_id": "JH-0910",
-      "company": "Infosec",
-      "role": "Senior Infrastructure Engineer",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5941749742?se=GKh9NyXR8RGjD_8hTDo2ZA&utm_medium=api&utm_source=1d9ce82d&v=498F8013562D3756051DD1A98442C0E6101C3B70",
-      "composite": 84,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true,
-      "category": "inferred",
-      "visa_confidence": "inferred",
-      "agency_posted": false,
-      "interview_score": 89,
-      "score_reasons": [
-        "ATS match 100% (weighted)",
-        "sponsorship: register-inferred",
-        "level: senior",
-        "role fit: tier1",
-        "posted: 14d old"
+        "posted: 11d old"
       ]
     },
     {
@@ -462,7 +474,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 10d old"
+        "posted: 13d old"
       ]
     },
     {
@@ -483,7 +495,28 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 24d old"
+        "posted: 27d old"
+      ]
+    },
+    {
+      "job_id": "JH-0970",
+      "company": "S&L IT PVT LTD",
+      "role": "DevOps Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/details/5960800593?utm_medium=api&utm_source=1d9ce82d",
+      "composite": 91,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false,
+      "interview_score": 88,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: mid (untitled)",
+        "role fit: tier1",
+        "posted: 1d old"
       ]
     },
     {
@@ -504,7 +537,28 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 0d old"
+        "posted: 3d old"
+      ]
+    },
+    {
+      "job_id": "JH-0966",
+      "company": "Pearson",
+      "role": "Specialist, DevOps & SRE",
+      "url": "https://www.adzuna.co.uk/jobs/details/5957974213?utm_medium=api&utm_source=1d9ce82d",
+      "composite": 89,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false,
+      "interview_score": 88,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: mid (untitled)",
+        "role fit: tier1",
+        "posted: 3d old"
       ]
     },
     {
@@ -525,7 +579,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 25d old"
+        "posted: 28d old"
       ]
     },
     {
@@ -546,49 +600,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 15d old"
-      ]
-    },
-    {
-      "job_id": "JH-0924",
-      "company": "Sensor Tower",
-      "role": "Platform Engineer",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5948546524?se=zOoaqHrW8RGzkfY_QG7FnA&utm_medium=api&utm_source=1d9ce82d&v=9182B7B5260D7B85C5FF97A1A27C53574D1466FD",
-      "composite": 88,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true,
-      "category": "inferred",
-      "visa_confidence": "inferred",
-      "agency_posted": false,
-      "interview_score": 88,
-      "score_reasons": [
-        "ATS match 100% (weighted)",
-        "sponsorship: register-inferred",
-        "level: mid (untitled)",
-        "role fit: tier1",
-        "posted: 7d old"
-      ]
-    },
-    {
-      "job_id": "JH-0825",
-      "company": "IG Group",
-      "role": "Senior Platform SRE",
-      "url": "https://www.adzuna.co.uk/jobs/details/5930286401?utm_medium=api&utm_source=1d9ce82d",
-      "composite": 87,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true,
-      "category": "inferred",
-      "visa_confidence": "inferred",
-      "agency_posted": false,
-      "interview_score": 88,
-      "score_reasons": [
-        "ATS match 100% (weighted)",
-        "sponsorship: register-inferred",
-        "level: senior",
-        "role fit: tier1",
-        "posted: 23d old"
+        "posted: 18d old"
       ]
     }
   ],
@@ -598,7 +610,7 @@
       "company": "Apple",
       "role_title": "Site Reliability Engineer (SRE), Observability",
       "applied_date": "2026-07-19",
-      "days_since": 112
+      "days_since": 115
     }
   ]
 }
