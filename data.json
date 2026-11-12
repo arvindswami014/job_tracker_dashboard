@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-12T05:00:03.146623",
+  "generated_at": "2026-11-12T12:30:43.399857",
   "visa_deadline": "2026-12-01T00:00:00",
   "weekly_goal": 35,
   "applied_this_week": 0,
   "cumulative_top25_count": 197,
   "status_counts": {
-    "Discovered": 908,
+    "Discovered": 911,
     "Queued (agent)": 37,
     "Applied": 2
   },
@@ -17,7 +17,7 @@
     },
     {
       "name": "greenhouse",
-      "count": 1243,
+      "count": 1235,
       "errors": 0
     },
     {
@@ -36,7 +36,10 @@
       "errors": 0
     }
   ],
-  "new_sponsors": [],
+  "new_sponsors": [
+    "Energy and System Technical Ltd",
+    "Mindscope Behavioural Labs Ltd"
+  ],
   "top_jobs": [
     {
       "job_id": "JH-0453",
