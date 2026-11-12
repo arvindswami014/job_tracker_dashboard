@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-11T12:25:09.502000",
+  "generated_at": "2026-11-12T05:00:03.146623",
   "visa_deadline": "2026-12-01T00:00:00",
   "weekly_goal": 35,
   "applied_this_week": 0,
-  "cumulative_top25_count": 196,
+  "cumulative_top25_count": 197,
   "status_counts": {
-    "Discovered": 900,
+    "Discovered": 908,
     "Queued (agent)": 37,
     "Applied": 2
   },
@@ -17,7 +17,7 @@
     },
     {
       "name": "greenhouse",
-      "count": 1235,
+      "count": 1243,
       "errors": 0
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "name": "reed",
-      "count": 323,
+      "count": 321,
       "errors": 0
     },
     {
@@ -36,19 +36,7 @@
       "errors": 0
     }
   ],
-  "new_sponsors": [
-    "ADAMO TECHNOLOGIES LTD",
-    "Allos AI Limited",
-    "Androlabs UK Ltd",
-    "BLUEBRIDGE TECHNOLOGY LTD (17155688)",
-    "CASECRAFT.AI LTD",
-    "Geosphere Enterprise Software Ltd",
-    "Humanis AI Ltd",
-    "Intelligent Media Technology Ltd",
-    "M N Pulse Solutions Ltd",
-    "Mind over Matter Medtech Ltd",
-    "MULFAB ENGINEERING LTD"
-  ],
+  "new_sponsors": [],
   "top_jobs": [
     {
       "job_id": "JH-0453",
@@ -94,7 +82,7 @@
         "sponsorship: stated in JD",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 113d old (stale)"
+        "posted: 114d old (stale)"
       ]
     },
     {
@@ -115,7 +103,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 35d old"
+        "posted: 36d old"
       ]
     },
     {
@@ -136,7 +124,7 @@
         "sponsorship: stated in JD",
         "level: manager",
         "role fit: tier1",
-        "posted: 91d old (stale)"
+        "posted: 92d old (stale)"
       ]
     },
     {
@@ -157,7 +145,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 58d old"
+        "posted: 59d old"
       ]
     },
     {
@@ -178,7 +166,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 97d old (stale)"
+        "posted: 98d old (stale)"
       ]
     },
     {
@@ -199,7 +187,7 @@
         "sponsorship: stated in JD",
         "level: senior",
         "role fit: tier1",
-        "posted: 25d old"
+        "posted: 26d old"
       ]
     },
     {
@@ -387,7 +375,7 @@
         "sponsorship: stated in JD",
         "level: senior",
         "role fit: tier1",
-        "posted: 38d old"
+        "posted: 39d old"
       ]
     },
     {
@@ -411,7 +399,7 @@
         "sponsorship: stated in JD",
         "level: senior",
         "role fit: tier1",
-        "posted: 42d old"
+        "posted: 43d old"
       ]
     },
     {
@@ -432,7 +420,28 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 2d old"
+        "posted: 3d old"
+      ]
+    },
+    {
+      "job_id": "JH-0991",
+      "company": "West Midlands Ambulance Service University NHS Foundation Trust",
+      "role": "Senior Infrastructure Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5961672162?se=PExjQVbe8RGDw-DoHL7Y9Q&utm_medium=api&utm_source=1d9ce82d&v=9E6FDA8C2BCCF88BDC4E776F4D6F13B589398153",
+      "composite": 79,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false,
+      "interview_score": 90,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: senior",
+        "role fit: tier1",
+        "posted: 1d old"
       ]
     },
     {
@@ -453,7 +462,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 11d old"
+        "posted: 12d old"
       ]
     },
     {
@@ -474,7 +483,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 13d old"
+        "posted: 14d old"
       ]
     },
     {
@@ -495,7 +504,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 27d old"
+        "posted: 28d old"
       ]
     },
     {
@@ -516,7 +525,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 1d old"
+        "posted: 2d old"
       ]
     },
     {
@@ -537,7 +546,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 3d old"
+        "posted: 4d old"
       ]
     },
     {
@@ -558,7 +567,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 3d old"
+        "posted: 4d old"
       ]
     },
     {
@@ -579,28 +588,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 28d old"
-      ]
-    },
-    {
-      "job_id": "JH-0903",
-      "company": "Microlise",
-      "role": "Senior DevOps Engineer",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5939830323?se=eOY4MyXR8RGOYfWuCF2d0w&utm_medium=api&utm_source=1d9ce82d&v=E6A5ECACD1B7AD268617BE5FDD240A7EA7B43586",
-      "composite": 88,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true,
-      "category": "inferred",
-      "visa_confidence": "inferred",
-      "agency_posted": false,
-      "interview_score": 88,
-      "score_reasons": [
-        "ATS match 100% (weighted)",
-        "sponsorship: register-inferred",
-        "level: senior",
-        "role fit: tier1",
-        "posted: 18d old"
+        "posted: 29d old"
       ]
     }
   ],
@@ -610,7 +598,7 @@
       "company": "Apple",
       "role_title": "Site Reliability Engineer (SRE), Observability",
       "applied_date": "2026-07-19",
-      "days_since": 115
+      "days_since": 116
     }
   ]
 }
