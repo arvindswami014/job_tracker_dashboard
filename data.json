@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-12T12:30:43.399857",
+  "generated_at": "2026-11-13T11:31:26.070419",
   "visa_deadline": "2026-12-01T00:00:00",
   "weekly_goal": 35,
   "applied_this_week": 0,
   "cumulative_top25_count": 197,
   "status_counts": {
-    "Discovered": 911,
+    "Discovered": 933,
     "Queued (agent)": 37,
     "Applied": 2
   },
@@ -17,7 +17,7 @@
     },
     {
       "name": "greenhouse",
-      "count": 1235,
+      "count": 1230,
       "errors": 0
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "name": "reed",
-      "count": 321,
+      "count": 323,
       "errors": 0
     },
     {
@@ -36,10 +36,7 @@
       "errors": 0
     }
   ],
-  "new_sponsors": [
-    "Energy and System Technical Ltd",
-    "Mindscope Behavioural Labs Ltd"
-  ],
+  "new_sponsors": [],
   "top_jobs": [
     {
       "job_id": "JH-0453",
@@ -85,7 +82,7 @@
         "sponsorship: stated in JD",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 114d old (stale)"
+        "posted: 115d old (stale)"
       ]
     },
     {
@@ -106,7 +103,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 36d old"
+        "posted: 37d old"
       ]
     },
     {
@@ -127,7 +124,7 @@
         "sponsorship: stated in JD",
         "level: manager",
         "role fit: tier1",
-        "posted: 92d old (stale)"
+        "posted: 93d old (stale)"
       ]
     },
     {
@@ -148,7 +145,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 59d old"
+        "posted: 60d old"
       ]
     },
     {
@@ -169,7 +166,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 98d old (stale)"
+        "posted: 99d old (stale)"
       ]
     },
     {
@@ -190,7 +187,7 @@
         "sponsorship: stated in JD",
         "level: senior",
         "role fit: tier1",
-        "posted: 26d old"
+        "posted: 27d old"
       ]
     },
     {
@@ -378,7 +375,7 @@
         "sponsorship: stated in JD",
         "level: senior",
         "role fit: tier1",
-        "posted: 39d old"
+        "posted: 40d old"
       ]
     },
     {
@@ -402,7 +399,7 @@
         "sponsorship: stated in JD",
         "level: senior",
         "role fit: tier1",
-        "posted: 43d old"
+        "posted: 44d old"
       ]
     },
     {
@@ -423,7 +420,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 3d old"
+        "posted: 4d old"
       ]
     },
     {
@@ -444,7 +441,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 1d old"
+        "posted: 2d old"
       ]
     },
     {
@@ -465,28 +462,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 12d old"
-      ]
-    },
-    {
-      "job_id": "JH-0930",
-      "company": "Outsource",
-      "role": "V06429 Senior Infrastructure Engineer",
-      "url": "https://www.adzuna.co.uk/jobs/land/ad/5945723200?se=DEpKrHrW8RGRQOLR_vdAhg&utm_medium=api&utm_source=1d9ce82d&v=F5B99D674D0821ED10A1E2AB4286392CC2E6BA22",
-      "composite": 78,
-      "coverage_pct": 100,
-      "missing_terms": [],
-      "has_draft": true,
-      "category": "inferred",
-      "visa_confidence": "inferred",
-      "agency_posted": false,
-      "interview_score": 89,
-      "score_reasons": [
-        "ATS match 100% (weighted)",
-        "sponsorship: register-inferred",
-        "level: senior",
-        "role fit: tier1",
-        "posted: 14d old"
+        "posted: 13d old"
       ]
     },
     {
@@ -507,7 +483,7 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 28d old"
+        "posted: 29d old"
       ]
     },
     {
@@ -528,7 +504,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 2d old"
+        "posted: 3d old"
       ]
     },
     {
@@ -549,7 +525,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 4d old"
+        "posted: 5d old"
       ]
     },
     {
@@ -570,7 +546,7 @@
         "sponsorship: register-inferred",
         "level: mid (untitled)",
         "role fit: tier1",
-        "posted: 4d old"
+        "posted: 5d old"
       ]
     },
     {
@@ -591,7 +567,28 @@
         "sponsorship: register-inferred",
         "level: senior",
         "role fit: tier1",
-        "posted: 29d old"
+        "posted: 30d old"
+      ]
+    },
+    {
+      "job_id": "JH-0903",
+      "company": "Microlise",
+      "role": "Senior DevOps Engineer",
+      "url": "https://www.adzuna.co.uk/jobs/land/ad/5939830323?se=eOY4MyXR8RGOYfWuCF2d0w&utm_medium=api&utm_source=1d9ce82d&v=E6A5ECACD1B7AD268617BE5FDD240A7EA7B43586",
+      "composite": 88,
+      "coverage_pct": 100,
+      "missing_terms": [],
+      "has_draft": true,
+      "category": "inferred",
+      "visa_confidence": "inferred",
+      "agency_posted": false,
+      "interview_score": 88,
+      "score_reasons": [
+        "ATS match 100% (weighted)",
+        "sponsorship: register-inferred",
+        "level: senior",
+        "role fit: tier1",
+        "posted: 20d old"
       ]
     }
   ],
@@ -601,7 +598,7 @@
       "company": "Apple",
       "role_title": "Site Reliability Engineer (SRE), Observability",
       "applied_date": "2026-07-19",
-      "days_since": 116
+      "days_since": 117
     }
   ]
 }
