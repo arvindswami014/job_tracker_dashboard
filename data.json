@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-14T05:00:03.830576",
+  "generated_at": "2026-11-14T10:00:03.781341",
   "visa_deadline": "2026-12-01T00:00:00",
   "weekly_goal": 35,
   "applied_this_week": 0,
   "cumulative_top25_count": 201,
   "status_counts": {
-    "Discovered": 942,
+    "Discovered": 944,
     "Queued (agent)": 37,
     "Applied": 2
   },
@@ -27,13 +27,13 @@
     },
     {
       "name": "reed",
-      "count": 325,
+      "count": 326,
       "errors": 0
     },
     {
       "name": "adzuna",
-      "count": 300,
-      "errors": 2
+      "count": 400,
+      "errors": 0
     }
   ],
   "new_sponsors": [],
